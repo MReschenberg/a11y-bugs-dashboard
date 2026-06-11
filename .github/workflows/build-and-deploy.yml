@@ -63,6 +63,8 @@ jobs:
           git push
 
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true # enable Pages (source = GitHub Actions) on first run
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
