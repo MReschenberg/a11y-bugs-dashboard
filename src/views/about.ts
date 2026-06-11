@@ -71,12 +71,12 @@ export function aboutView(data: DashboardData): HTMLElement {
     .map(([k, v]) => `${fmt.int(v)} ${k}`)
     .join(", ");
   section.append(el("p", {},
-    "Source: the Bugzilla REST API, all bugs with the access keyword. " +
-    `${fmt.int(meta.totalBugs)} bugs shown (${fmt.int(meta.totalFetched)} fetched; ` +
+    "Everything here comes from the Bugzilla REST API — every bug carrying the access keyword. " +
+    `${fmt.int(meta.totalBugs)} shown (${fmt.int(meta.totalFetched)} fetched; ` +
     `${fmt.int(meta.excludedCount)} excluded — ${exParts}; ` +
-    `${fmt.int(meta.engineCount)} are the a11y engine). ` +
-    `Of the shown bugs, ${fmt.int(meta.webaimTotal)} were filed by a WebAIM contractor; ` +
-    "months with a WebAIM audit batch are marked * on the throughput chart."));
+    `${fmt.int(meta.engineCount)} of those are the a11y engine itself). ` +
+    `${fmt.int(meta.webaimTotal)} of the shown bugs were filed by a WebAIM contractor; ` +
+    "months carrying one of their audit batches are marked * on the throughput chart."));
 
   section.append(el("h3", {}, "Caveats"));
   const ul = el("ul");

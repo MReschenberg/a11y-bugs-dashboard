@@ -51,8 +51,8 @@ export function agingView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr2-h" }, "Aging — time to close"));
   section.append(
     el("p", { class: "lede" },
-      `Days from creation to latest FIXED resolution, for bugs fixed in the last ${aging.windowMonths} months. ` +
-      `Median is the headline (the distribution is heavily right-skewed; mean ≫ median).`),
+      `Days from a bug's creation to its latest FIXED resolution, for everything fixed in the last ${aging.windowMonths} months. ` +
+      `Read the median, not the mean — the distribution is heavily right-skewed, and a handful of decade-old bugs drag the mean far above it.`),
   );
 
   // --- aging table ---

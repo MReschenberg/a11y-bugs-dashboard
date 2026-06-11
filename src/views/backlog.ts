@@ -20,8 +20,8 @@ export function backlogView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr2t-h" }, "Open backlog over time"));
   section.append(
     el("p", { class: "lede" },
-      "Accessibility bugs still open, and their median age, by week. Counts and ages are exact; " +
-      "weeks before this dashboard launched are reconstructed from bug timestamps, so their severity split is approximate."),
+      "How many accessibility bugs are still open, and how old they are, week by week. Counts and ages are exact; " +
+      "weeks from before this dashboard existed are reconstructed from bug timestamps, so the severity split for those is an approximation (the totals aren't)."),
   );
 
   if (weeks.length === 0) {

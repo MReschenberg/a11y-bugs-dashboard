@@ -46,8 +46,8 @@ export function comparisonView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr3-h" }, "Year-over-year & month-over-month"));
   section.append(
     el("p", { class: "lede" },
-      "Filed and fixed counts with deltas against the prior period. Calendar-year basis. " +
-      "Cross-year comparisons aren't apples-to-apples (on-train vs. off-train shipping) — read trends, not exact equivalences."),
+      "Filed and fixed per period, with deltas against the one before. Calendar-year basis. " +
+      "These aren't apples-to-apples across years — we shipped on-train then and off-train now — so read the trend, not the exact numbers."),
   );
 
   const yearly = data.rollups.yearly.slice(-8);

@@ -63,7 +63,7 @@ export function throughputView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr1-h" }, "Filed vs. fixed over time"));
   section.append(
     el("p", { class: "lede" },
-      "Accessibility bugs opened vs. resolved-fixed each month. Filter by normalized severity (S1–S4; see About for the raw mapping). Graveyard and Thunderbird-family products are excluded."),
+      "How many accessibility bugs we open versus how many we actually close as FIXED, by month. Filter by normalized severity (S1–S4; see About for how the legacy values map). Graveyard and Thunderbird-family products are out of scope, and the a11y engine is its own dashed series so platform work isn't mistaken for product accessibility."),
   );
 
   // --- controls ---
