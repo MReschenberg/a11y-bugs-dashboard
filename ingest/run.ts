@@ -152,14 +152,14 @@ async function main(): Promise<void> {
     webaimTotal: published.filter((b) => b.webaim).length,
     rawSeverityCounts,
     caveats: [
-      "Population is a floor: bugs missing the `access` keyword are not counted.",
+      "Bugs missing the `access` keyword are not counted.",
       usedKey
         ? "Security-restricted bugs are counted only in the overall total."
         : "Public bugs only (no API key set); restricted bugs are excluded.",
       "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
       "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",
       "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded; a11y-engine bugs are a flagged series.",
-      "Months with a WebAIM contractor audit batch are marked with * (a single audit, not organic intake).",
+      "Months with a WebAIM contractor audit batch are marked with *.",
     ],
     bmoQueryBase: "https://bugzilla.mozilla.org/buglist.cgi?keywords=access",
   };

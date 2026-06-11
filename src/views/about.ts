@@ -14,6 +14,20 @@ const el = <K extends keyof HTMLElementTagNameMap>(
   return n;
 };
 
+// Render a string with minimal inline markdown: `code` → <code>, _em_ → <em>.
+function frag(text: string): DocumentFragment {
+  const f = document.createDocumentFragment();
+  const re = /`([^`]+)`|_([^_]+)_/g;
+  let last = 0;
+  for (let m = re.exec(text); m; m = re.exec(text)) {
+    if (m.index > last) f.append(text.slice(last, m.index));
+    f.append(m[1] !== undefined ? el("code", {}, m[1]) : el("em", {}, m[2]));
+    last = re.lastIndex;
+  }
+  if (last < text.length) f.append(text.slice(last));
+  return f;
+}
+
 const STALE_DAYS = 8; // a missed weekly+ refresh
 
 /** Returns a banner element, or null if the data is fresh. */
@@ -27,7 +41,7 @@ export function stalenessBanner(data: DashboardData): HTMLElement | null {
 function dictionary(): HTMLElement {
   const terms: Array<[string, string]> = [
     ["Created", "Bug creation date (when filed in Bugzilla — not necessarily when the access keyword was added)."],
-    ["Fixed (latest resolution)", "Resolution = FIXED, dated by cf_last_resolved (the latest resolution; ~7% of bugs are reopened)."],
+    ["Fixed (latest resolution)", "Resolution = FIXED. We track the most-recent timestamp on this field. For reopened bugs (7% of ingested data), this is the _latest_ closure, not the first."],
     ["Time to close", "Days from Created to latest FIXED resolution."],
     ["Open backlog age", "Days a still-open bug has been open, as of the last ingest."],
     ["Normalized severity", "Legacy Bugzilla severities mapped to S1–S4 (see map below); unset values shown as Unknown."],
@@ -37,7 +51,9 @@ function dictionary(): HTMLElement {
   const dl = el("dl", { class: "dict" });
   for (const [t, d] of terms) {
     dl.append(el("dt", {}, t));
-    dl.append(el("dd", {}, d));
+    const dd = el("dd");
+    dd.append(frag(d));
+    dl.append(dd);
   }
   return dl;
 }
@@ -70,31 +86,31 @@ export function aboutView(data: DashboardData): HTMLElement {
     .sort((a, b) => b[1] - a[1])
     .map(([k, v]) => `${fmt.int(v)} ${k}`)
     .join(", ");
-  section.append(el("p", {},
-    "Everything here comes from the Bugzilla REST API — every bug carrying the access keyword. " +
-    `${fmt.int(meta.totalBugs)} shown (${fmt.int(meta.totalFetched)} fetched; ` +
-    `${fmt.int(meta.excludedCount)} excluded — ${exParts}; ` +
-    `${fmt.int(meta.engineCount)} of those are the a11y engine itself). ` +
-    `${fmt.int(meta.webaimTotal)} of the shown bugs were filed by a WebAIM contractor; ` +
-    "months carrying one of their audit batches are marked * on the throughput chart."));
+  const intro = el("p");
+  intro.append(frag(
+    "This dashboard uses the Bugzilla REST API to track all bugs with the `access` keyword. " +
+    `It currently tracks ${fmt.int(meta.totalBugs)} bugs. ` +
+    `The original fetch pulled ${fmt.int(meta.totalFetched)} bugs, but ${fmt.int(meta.excludedCount)} were excluded — ${exParts}. ` +
+    `${fmt.int(meta.engineCount)} bugs were in the a11y engine component and are represented in their own series.`));
+  section.append(intro);
 
   section.append(el("h3", {}, "Caveats"));
   const ul = el("ul");
-  for (const c of meta.caveats) ul.append(el("li", {}, c));
+  for (const c of meta.caveats) {
+    const li = el("li");
+    li.append(frag(c));
+    ul.append(li);
+  }
   section.append(ul);
 
   section.append(el("h3", {}, "Data dictionary"));
   section.append(dictionary());
 
-  section.append(el("h3", {}, "Severity mapping"));
+  section.append(el("h3", { id: "severity-mapping" }, "Severity mapping"));
+  section.append(el("p", {},
+    "We've used several different severity-mapping systems in Bugzilla over the years. " +
+    "This table explains how those systems have been merged to bring you the data in the graph above."));
   section.append(severityMap(data));
-
-  section.append(el("h3", {}, "Notes"));
-  const notes = el("ul");
-  notes.append(el("li", {}, "Calendar-year basis (= fiscal year). All dates bucketed in UTC."));
-  notes.append(el("li", {}, "Provenance links are query-links only (no bug IDs) and approximate — they don't date-bound or exclude graveyards, and a normalized S-bucket expands to several raw severities."));
-  notes.append(el("li", {}, "Population is a floor: bugs missing the access keyword are not counted."));
-  section.append(notes);
 
   section.append(el("p", { class: "fine" },
     `Last updated ${meta.generatedAt.slice(0, 16).replace("T", " ")} UTC.`));

@@ -63,14 +63,16 @@ export function throughputView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr1-h" }, "Filed vs. fixed over time"));
   section.append(
     el("p", { class: "lede" },
-      "How many accessibility bugs we open versus how many we actually close as FIXED, by month. Filter by normalized severity (S1–S4; see About for how the legacy values map). Graveyard and Thunderbird-family products are out of scope, and the a11y engine is its own dashed series so platform work isn't mistaken for product accessibility."),
+      'This graph shows the number of access-bugs created ("Filed") and closed ("Fixed") over the selected time period.'),
   );
 
   // --- controls ---
   const controls = el("div", { class: "controls" });
 
   const fs = el("fieldset");
-  fs.append(el("legend", {}, "Normalized severity"));
+  const sevLegend = el("legend");
+  sevLegend.append(el("a", { href: "#severity-mapping" }, "Normalized severity"));
+  fs.append(sevLegend);
   for (const s of SEVS) {
     const id = `fr1-sev-${s}`;
     const label = el("label", { class: "check", for: id });
@@ -110,8 +112,8 @@ export function throughputView(data: DashboardData): HTMLElement {
   const tableHost = el("div", { class: "table-host" });
   const provenance = el("p", { class: "provenance" });
   const webaimNote = el("p", { class: "fine" },
-    `* Month includes a WebAIM contractor audit batch (≥${WEBAIM_SPIKE_MIN} bugs filed that month) — a single audit, ` +
-    `not organic intake. A WebAIM contractor has filed ${fmt.int(data.meta.webaimTotal)} accessibility bugs in total.`);
+    `* Month includes a WebAIM contractor audit batch (≥${WEBAIM_SPIKE_MIN} bugs filed that month). ` +
+    `A WebAIM contractor has filed ${fmt.int(data.meta.webaimTotal)} accessibility bugs in total.`);
   section.append(legendHost, figureHost, tableHost, provenance, webaimNote);
 
   function points(): MonthPoint[] {
