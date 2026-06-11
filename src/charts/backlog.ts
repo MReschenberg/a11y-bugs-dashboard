@@ -14,9 +14,9 @@ export function backlogFigure(
 ): HTMLElement | SVGSVGElement {
   return Plot.plot({
     width: 880,
-    height: 220,
+    height: 232,
     marginLeft: 56,
-    marginBottom: 30,
+    marginBottom: 48, // room for two-line "Mon \n YYYY" tick labels (were getting clipped)
     style: { fontSize: "13px", background: "transparent" },
     x: { type: "utc", label: null, grid: false },
     y: { label: opts.label, grid: true, nice: true, zero: true },

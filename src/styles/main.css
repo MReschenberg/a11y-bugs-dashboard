@@ -88,6 +88,12 @@ button.table-toggle:hover { border-color: var(--accent); }
   .figure-host [aria-label="tip"] text { fill: var(--fg) !important; stroke: none !important; }
 }
 
+/* Pattern-aware chart legend (color + dash + label, not color alone) */
+.legend-host { margin: 0.1rem 0 0.4rem; }
+.legend { list-style: none; display: flex; flex-wrap: wrap; gap: 0.2rem 1.1rem; padding: 0; margin: 0; font-size: 0.85rem; }
+.legend li { display: inline-flex; align-items: center; gap: 0.35rem; }
+.legend svg { flex: none; }
+
 /* Tables */
 table.stats, .table-host table {
   border-collapse: collapse; width: 100%; margin: 0.5rem 0 1rem; font-size: 0.92rem;

@@ -4,8 +4,31 @@ import {
   type DashboardData, type Sev, SEVS, SEV_LABEL, bmoLink, fmt,
   sinceMonth, sumSelected, WEBAIM_SPIKE_MIN,
 } from "../data";
-import { throughputFigure, type MonthPoint } from "../charts/throughput";
+import { throughputFigure, type MonthPoint, type SeriesName, SERIES_STYLE } from "../charts/throughput";
 import { buildTable, tableToggle } from "../a11y/dataTable";
+
+const SVGNS = "http://www.w3.org/2000/svg";
+
+/** Pattern-aware legend: each series shown by its actual color AND dash pattern + label
+ * (so the legend doesn't depend on color alone). */
+function legend(series: SeriesName[]): HTMLElement {
+  const wrap = document.createElement("ul");
+  wrap.className = "legend";
+  for (const s of series) {
+    const { color, dash } = SERIES_STYLE[s];
+    const li = document.createElement("li");
+    const svg = document.createElementNS(SVGNS, "svg");
+    svg.setAttribute("width", "34"); svg.setAttribute("height", "12"); svg.setAttribute("aria-hidden", "true");
+    const line = document.createElementNS(SVGNS, "line");
+    line.setAttribute("x1", "1"); line.setAttribute("y1", "6"); line.setAttribute("x2", "33"); line.setAttribute("y2", "6");
+    line.setAttribute("stroke", color); line.setAttribute("stroke-width", "2.5");
+    if (dash) line.setAttribute("stroke-dasharray", dash);
+    svg.append(line);
+    li.append(svg, document.createTextNode(` ${s}`));
+    wrap.append(li);
+  }
+  return wrap;
+}
 
 interface State {
   sevs: Set<Sev>;
@@ -82,13 +105,14 @@ export function throughputView(data: DashboardData): HTMLElement {
   section.append(controls);
 
   // --- hosts (re-rendered on change) ---
+  const legendHost = el("div", { class: "legend-host" });
   const figureHost = el("div", { class: "figure-host" });
   const tableHost = el("div", { class: "table-host" });
   const provenance = el("p", { class: "provenance" });
   const webaimNote = el("p", { class: "fine" },
     `* Month includes a WebAIM contractor audit batch (≥${WEBAIM_SPIKE_MIN} bugs filed that month) — a single audit, ` +
     `not organic intake. A WebAIM contractor has filed ${fmt.int(data.meta.webaimTotal)} accessibility bugs in total.`);
-  section.append(figureHost, tableHost, provenance, webaimNote);
+  section.append(legendHost, figureHost, tableHost, provenance, webaimNote);
 
   function points(): MonthPoint[] {
     const sevs = [...state.sevs];
@@ -113,6 +137,7 @@ export function throughputView(data: DashboardData): HTMLElement {
 
   function render(): void {
     if (state.sevs.size === 0) {
+      legendHost.replaceChildren();
       figureHost.replaceChildren(
         el("p", { class: "callout", role: "status" }, "Select at least one severity to see the chart."));
       tableHost.replaceChildren();
@@ -122,6 +147,8 @@ export function throughputView(data: DashboardData): HTMLElement {
     const pts = points();
     const engine = state.showEngine ? enginePoints() : undefined;
 
+    const series: SeriesName[] = ["Filed", "Fixed", ...(engine ? ["Engine fixed" as const] : [])];
+    legendHost.replaceChildren(legend(series));
     figureHost.replaceChildren(throughputFigure(pts, { engine }));
 
     const headers = ["Month", "Filed", "Fixed", ...(engine ? ["Engine fixed"] : [])];
