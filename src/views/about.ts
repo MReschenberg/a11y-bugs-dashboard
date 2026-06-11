@@ -4,6 +4,7 @@
 import {
   type DashboardData, SEVS, SEV_LABEL, NORM_TO_RAW, fmt, daysSince,
 } from "../data";
+import { frag } from "../dom";
 
 const el = <K extends keyof HTMLElementTagNameMap>(
   tag: K, attrs: Record<string, string> = {}, text?: string,
@@ -13,20 +14,6 @@ const el = <K extends keyof HTMLElementTagNameMap>(
   if (text !== undefined) n.textContent = text;
   return n;
 };
-
-// Render a string with minimal inline markdown: `code` → <code>, _em_ → <em>.
-function frag(text: string): DocumentFragment {
-  const f = document.createDocumentFragment();
-  const re = /`([^`]+)`|_([^_]+)_/g;
-  let last = 0;
-  for (let m = re.exec(text); m; m = re.exec(text)) {
-    if (m.index > last) f.append(text.slice(last, m.index));
-    f.append(m[1] !== undefined ? el("code", {}, m[1]) : el("em", {}, m[2]));
-    last = re.lastIndex;
-  }
-  if (last < text.length) f.append(text.slice(last));
-  return f;
-}
 
 const STALE_DAYS = 8; // a missed weekly+ refresh
 
@@ -40,13 +27,13 @@ export function stalenessBanner(data: DashboardData): HTMLElement | null {
 
 function dictionary(): HTMLElement {
   const terms: Array<[string, string]> = [
-    ["Created", "Bug creation date (when filed in Bugzilla — not necessarily when the access keyword was added)."],
+    ["Created", "Bug creation date (when filed in Bugzilla — not necessarily when the `access` keyword was added)."],
     ["Fixed (latest resolution)", "Resolution = FIXED. We track the most-recent timestamp on this field. For reopened bugs (7% of ingested data), this is the _latest_ closure, not the first."],
     ["Time to close", "Days from Created to latest FIXED resolution."],
     ["Open backlog age", "Days a still-open bug has been open, as of the last ingest."],
     ["Normalized severity", "Legacy Bugzilla severities mapped to S1–S4 (see map below); unset values shown as Unknown."],
     ["Won't-fix / duplicate / invalid", "Closed without a fix; reported separately, never counted as fixed."],
-    ["A11y engine", "Bugs in Core :: Disability Access* (the accessibility engine itself), shown as a flagged series."],
+    ["A11y engine", "Bugs in Core's Disability Access components (the accessibility engine itself), shown as a flagged series."],
   ];
   const dl = el("dl", { class: "dict" });
   for (const [t, d] of terms) {

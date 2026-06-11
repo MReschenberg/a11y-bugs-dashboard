@@ -6,6 +6,7 @@ import {
 } from "../data";
 import { throughputFigure, type MonthPoint, type SeriesName, SERIES_STYLE } from "../charts/throughput";
 import { buildTable, tableToggle } from "../a11y/dataTable";
+import { frag } from "../dom";
 
 const SVGNS = "http://www.w3.org/2000/svg";
 
@@ -61,10 +62,9 @@ export function throughputView(data: DashboardData): HTMLElement {
 
   const section = el("section", { "aria-labelledby": "fr1-h" });
   section.append(el("h2", { id: "fr1-h" }, "Filed vs. fixed over time"));
-  section.append(
-    el("p", { class: "lede" },
-      'This graph shows the number of access-bugs created ("Filed") and closed ("Fixed") over the selected time period.'),
-  );
+  const fr1Lede = el("p", { class: "lede" });
+  fr1Lede.append(frag('This graph shows the number of `access`-bugs created ("Filed") and closed ("Fixed") over the selected time period.'));
+  section.append(fr1Lede);
 
   // --- controls ---
   const controls = el("div", { class: "controls" });

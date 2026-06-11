@@ -4,6 +4,7 @@
 import { type DashboardData, isoWeekToDate, fmt } from "../data";
 import { backlogFigure, type TrendPoint } from "../charts/backlog";
 import { buildTable, tableToggle } from "../a11y/dataTable";
+import { frag } from "../dom";
 
 const el = <K extends keyof HTMLElementTagNameMap>(
   tag: K, attrs: Record<string, string> = {}, text?: string,
@@ -18,11 +19,10 @@ export function backlogView(data: DashboardData): HTMLElement {
   const weeks = data.backlog.weeks;
   const section = el("section", { "aria-labelledby": "fr2t-h" });
   section.append(el("h2", { id: "fr2t-h" }, "Open backlog over time"));
-  section.append(
-    el("p", { class: "lede" },
-      "How many accessibility bugs are still open, and how old they are, week by week. Counts and ages are exact; " +
-      "weeks from before this dashboard existed are reconstructed from bug timestamps, so the severity split for those is an approximation (the totals aren't)."),
-  );
+  const lede = el("p", { class: "lede" });
+  lede.append(frag(
+    "These graphs show the number of `access` bugs unresolved (open) over time, and the median age of those bugs respectively."));
+  section.append(lede);
 
   if (weeks.length === 0) {
     section.append(el("p", { class: "callout" }, "No backlog history yet."));

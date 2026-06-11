@@ -46,8 +46,8 @@ export function comparisonView(data: DashboardData): HTMLElement {
   section.append(el("h2", { id: "fr3-h" }, "Year-over-year & month-over-month"));
   section.append(
     el("p", { class: "lede" },
-      "Filed and fixed per period, with deltas against the one before. Calendar-year basis. " +
-      "These aren't apples-to-apples across years — we shipped on-train then and off-train now — so read the trend, not the exact numbers."),
+      "The following tables show relative changes to the amount of bugs fixed and filed. " +
+      "The left table shows these changes year-over-year while the right table shows them month-over-month for the past year."),
   );
 
   const yearly = data.rollups.yearly.slice(-8);
