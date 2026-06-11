@@ -75,7 +75,6 @@ export function aboutView(data: DashboardData): HTMLElement {
     `${fmt.int(meta.totalBugs)} bugs shown (${fmt.int(meta.totalFetched)} fetched; ` +
     `${fmt.int(meta.excludedCount)} excluded — ${exParts}; ` +
     `${fmt.int(meta.engineCount)} are the a11y engine). ` +
-    `A further ${fmt.int(meta.restrictedCount)} security-restricted bugs are counted only in this total — never broken out by month or severity, so they can't be identified. ` +
     `Of the shown bugs, ${fmt.int(meta.webaimTotal)} were filed by a WebAIM contractor; ` +
     "months with a WebAIM audit batch are marked * on the throughput chart."));
 

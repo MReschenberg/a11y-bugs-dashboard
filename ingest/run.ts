@@ -154,7 +154,7 @@ async function main(): Promise<void> {
     caveats: [
       "Population is a floor: bugs missing the `access` keyword are not counted.",
       usedKey
-        ? "Security-restricted bugs are counted only in the overall total — never broken out by month or severity, so they can't be identified."
+        ? "Security-restricted bugs are counted only in the overall total."
         : "Public bugs only (no API key set); restricted bugs are excluded.",
       "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
       "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",

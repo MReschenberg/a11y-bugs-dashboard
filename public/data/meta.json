@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T17:36:18.303Z",
-  "lastSuccessfulIngest": "2026-06-11T17:36:18.303Z",
+  "generatedAt": "2026-06-11T17:50:04.787Z",
+  "lastSuccessfulIngest": "2026-06-11T17:50:04.787Z",
   "totalBugs": 7237,
   "totalFetched": 9406,
   "excludedCount": 2154,
@@ -30,7 +30,7 @@
   },
   "caveats": [
     "Population is a floor: bugs missing the `access` keyword are not counted.",
-    "Security-restricted bugs are counted only in the overall total — never broken out by month or severity, so they can't be identified.",
+    "Security-restricted bugs are counted only in the overall total.",
     "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
     "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",
     "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded; a11y-engine bugs are a flagged series.",
