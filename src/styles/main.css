@@ -80,6 +80,14 @@ button.table-toggle:hover { border-color: var(--accent); }
 .figure-host { overflow-x: auto; }
 .figure-host :is(svg, figure) { max-width: 100%; height: auto; }
 
+/* Observable Plot tooltips inherit the chart's transparent background, which is
+   unreadable on the dark page. In dark mode give the tip a solid themed box +
+   light text. Light mode keeps Plot's default (readable over the white page). */
+@media (prefers-color-scheme: dark) {
+  .figure-host [aria-label="tip"] :is(path, rect) { fill: var(--surface) !important; stroke: var(--border) !important; }
+  .figure-host [aria-label="tip"] text { fill: var(--fg) !important; stroke: none !important; }
+}
+
 /* Tables */
 table.stats, .table-host table {
   border-collapse: collapse; width: 100%; margin: 0.5rem 0 1rem; font-size: 0.92rem;
