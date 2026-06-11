@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-06-11T17:12:42.601Z",
+  "lastSuccessfulIngest": "2026-06-11T17:12:42.601Z",
+  "totalBugs": 7237,
+  "totalFetched": 9406,
+  "excludedCount": 2154,
+  "excludedDetail": {
+    "SeaMonkey": 498,
+    "graveyard": 885,
+    "MailNews Core": 47,
+    "Thunderbird": 612,
+    "Calendar": 112
+  },
+  "engineCount": 1949,
+  "restrictedCount": 14,
+  "webaimTotal": 160,
+  "rawSeverityCounts": {
+    "blocker": 34,
+    "normal": 3379,
+    "major": 459,
+    "S3": 1591,
+    "--": 659,
+    "minor": 120,
+    "S4": 305,
+    "critical": 199,
+    "trivial": 27,
+    "N/A": 70,
+    "S2": 393,
+    "S1": 2
+  },
+  "caveats": [
+    "Population is a floor: bugs missing the `access` keyword are not counted.",
+    "Security-restricted bugs are counted only in the overall total — never broken out by month or severity, so they can't be identified.",
+    "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
+    "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",
+    "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded; a11y-engine bugs are a flagged series.",
+    "Months with a WebAIM contractor audit batch are marked with * (a single audit, not organic intake)."
+  ],
+  "bmoQueryBase": "https://bugzilla.mozilla.org/buglist.cgi?keywords=access"
+}

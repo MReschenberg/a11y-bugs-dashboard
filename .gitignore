@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.local
+.DS_Store
+
+# Step 0 one-off analysis outputs (regenerable; not part of the app)
+ingest/*-report.md

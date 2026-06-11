@@ -1,0 +1,71 @@
+name: Build & deploy
+
+# Ingest fresh Bugzilla data, gate it (typecheck/tests/privacy), commit the snapshot
+# (so the weekly point-in-time freeze persists), then build and deploy to Pages — all
+# in ONE run (a GITHUB_TOKEN commit can't trigger a downstream Pages build).
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily 06:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commit refreshed data
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Fail loudly if the secret is missing — otherwise ingestion would silently
+      # publish the PUBLIC-ONLY subset (15 restricted bugs is under the 2% drop guard).
+      - name: Require BUGZILLA_API_KEY
+        env:
+          BUGZILLA_API_KEY: ${{ secrets.BUGZILLA_API_KEY }}
+        run: test -n "$BUGZILLA_API_KEY" || { echo "::error::BUGZILLA_API_KEY secret is not set"; exit 1; }
+
+      - name: Ingest from Bugzilla
+        env:
+          BUGZILLA_API_KEY: ${{ secrets.BUGZILLA_API_KEY }}
+        run: npm run ingest
+
+      # Gates — block commit & deploy if any fail.
+      - run: npm run typecheck
+      - run: npm test
+      - name: Privacy scan (no bug IDs / emails / personal data in output)
+        run: npm run privacy-scan
+
+      # Persist the refreshed data so next run's weekly freeze sees the prior current.json.
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git diff --staged --quiet || git commit -m "data: scheduled refresh"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4

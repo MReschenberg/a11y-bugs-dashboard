@@ -1,0 +1,2084 @@
+{
+  "weeks": [
+    {
+      "week": "2024-W25",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 891,
+      "openBacklog": {
+        "n": 891,
+        "min": 2.4374536921296297,
+        "max": 8895.953240729166,
+        "mean": 2625.4035256254524,
+        "median": 1531.3115509143518
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 31,
+        "S3": 677,
+        "S4": 102,
+        "unknown": 81
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W26",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 894,
+      "openBacklog": {
+        "n": 894,
+        "min": 2.4119212847222222,
+        "max": 8902.953240729166,
+        "mean": 2622.1634367634256,
+        "median": 1524.0749131828704
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 32,
+        "S3": 678,
+        "S4": 102,
+        "unknown": 82
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W27",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 913,
+      "openBacklog": {
+        "n": 913,
+        "min": 3.2533564699074073,
+        "max": 8909.953240729166,
+        "mean": 2565.46193006986,
+        "median": 1460.3547685069445
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 41,
+        "S3": 687,
+        "S4": 102,
+        "unknown": 83
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W28",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 916,
+      "openBacklog": {
+        "n": 916,
+        "min": 2.7235185069444445,
+        "max": 8916.953240729166,
+        "mean": 2562.083419508175,
+        "median": 1456.7305844791667
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 42,
+        "S3": 685,
+        "S4": 104,
+        "unknown": 85
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W29",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 912,
+      "openBacklog": {
+        "n": 912,
+        "min": 2.3560300810185186,
+        "max": 8923.953240729166,
+        "mean": 2572.66037788448,
+        "median": 1469.489890034722
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 40,
+        "S3": 685,
+        "S4": 107,
+        "unknown": 80
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W30",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 911,
+      "openBacklog": {
+        "n": 911,
+        "min": 3.1337847106481482,
+        "max": 8930.953240729166,
+        "mean": 2578.8559526960707,
+        "median": 1476.0848379513889
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 39,
+        "S3": 686,
+        "S4": 107,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W31",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 907,
+      "openBacklog": {
+        "n": 907,
+        "min": 2.4467592476851854,
+        "max": 8937.953240729166,
+        "mean": 2588.989388502144,
+        "median": 1483.8949421180555
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 39,
+        "S3": 682,
+        "S4": 107,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W32",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 922,
+      "openBacklog": {
+        "n": 922,
+        "min": 2.1562615625,
+        "max": 8944.953240729166,
+        "mean": 2553.5601495601077,
+        "median": 1449.388443275463
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 45,
+        "S3": 688,
+        "S4": 110,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W33",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 925,
+      "openBacklog": {
+        "n": 925,
+        "min": 4.564456006944445,
+        "max": 8951.953240729166,
+        "mean": 2550.3464696455812,
+        "median": 1427.3106944328704
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 47,
+        "S3": 689,
+        "S4": 110,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W34",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 927,
+      "openBacklog": {
+        "n": 927,
+        "min": 3.3534027662037036,
+        "max": 8958.953240729166,
+        "mean": 2546.095879006263,
+        "median": 1387.4268518402778
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 47,
+        "S3": 687,
+        "S4": 110,
+        "unknown": 83
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W35",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 937,
+      "openBacklog": {
+        "n": 937,
+        "min": 2.4340046180555555,
+        "max": 8965.953240729166,
+        "mean": 2525.8470772197375,
+        "median": 1306.8845138773147
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 54,
+        "S3": 689,
+        "S4": 110,
+        "unknown": 84
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W36",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 938,
+      "openBacklog": {
+        "n": 938,
+        "min": 6.3859722106481485,
+        "max": 8972.953240729166,
+        "mean": 2529.961579294276,
+        "median": 1300.1296990625
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 57,
+        "S3": 690,
+        "S4": 111,
+        "unknown": 80
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W37",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 935,
+      "openBacklog": {
+        "n": 935,
+        "min": 13.385972210648148,
+        "max": 8979.953240729166,
+        "mean": 2543.7223075740844,
+        "median": 1331.0835532291667
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 55,
+        "S3": 690,
+        "S4": 111,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W38",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 936,
+      "openBacklog": {
+        "n": 936,
+        "min": 2.0483680439814815,
+        "max": 8986.953240729166,
+        "mean": 2547.390138024096,
+        "median": 1332.9840335532408
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 55,
+        "S3": 690,
+        "S4": 112,
+        "unknown": 79
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W39",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 938,
+      "openBacklog": {
+        "n": 938,
+        "min": 2.2662499884259257,
+        "max": 8993.953240729166,
+        "mean": 2539.875771490537,
+        "median": 1300.6382696643518
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 57,
+        "S3": 691,
+        "S4": 110,
+        "unknown": 80
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W40",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 943,
+      "openBacklog": {
+        "n": 943,
+        "min": 3.14339119212963,
+        "max": 9000.953240729166,
+        "mean": 2533.002134355692,
+        "median": 1292.9469675810185
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 57,
+        "S3": 694,
+        "S4": 110,
+        "unknown": 82
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W41",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 954,
+      "openBacklog": {
+        "n": 954,
+        "min": 2.3538194328703703,
+        "max": 9007.953240729166,
+        "mean": 2510.2663775701467,
+        "median": 1267.8004282291668
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 59,
+        "S3": 697,
+        "S4": 110,
+        "unknown": 88
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W42",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 957,
+      "openBacklog": {
+        "n": 957,
+        "min": 1.392673599537037,
+        "max": 9014.953240729166,
+        "mean": 2509.1807446839425,
+        "median": 1272.117210636574
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 59,
+        "S3": 703,
+        "S4": 110,
+        "unknown": 85
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W43",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 963,
+      "openBacklog": {
+        "n": 963,
+        "min": 2.152696747685185,
+        "max": 9021.953240729166,
+        "mean": 2500.024101825854,
+        "median": 1278.2728472106483
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 58,
+        "S3": 709,
+        "S4": 110,
+        "unknown": 86
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W44",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 967,
+      "openBacklog": {
+        "n": 967,
+        "min": 3.172627303240741,
+        "max": 9028.953240729166,
+        "mean": 2495.901692867317,
+        "median": 1277.440173599537
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 58,
+        "S3": 712,
+        "S4": 110,
+        "unknown": 87
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W45",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 968,
+      "openBacklog": {
+        "n": 968,
+        "min": 2.383564803240741,
+        "max": 9035.953240729166,
+        "mean": 2499.8297009038283,
+        "median": 1280.3828761458335
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 58,
+        "S3": 714,
+        "S4": 109,
+        "unknown": 87
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W46",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 967,
+      "openBacklog": {
+        "n": 967,
+        "min": 0.28836804398148147,
+        "max": 9042.953240729166,
+        "mean": 2508.118111044478,
+        "median": 1291.440173599537
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 58,
+        "S3": 714,
+        "S4": 109,
+        "unknown": 86
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W47",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 970,
+      "openBacklog": {
+        "n": 970,
+        "min": 0.3336342476851852,
+        "max": 9049.953240729166,
+        "mean": 2506.807579014294,
+        "median": 1288.3681828587964
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 57,
+        "S3": 721,
+        "S4": 109,
+        "unknown": 83
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W48",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 972,
+      "openBacklog": {
+        "n": 972,
+        "min": 1.1269675810185185,
+        "max": 9056.953240729166,
+        "mean": 2501.3690266588064,
+        "median": 1277.369259247685
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 57,
+        "S3": 722,
+        "S4": 109,
+        "unknown": 84
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W49",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 980,
+      "openBacklog": {
+        "n": 980,
+        "min": 4.009999988425926,
+        "max": 9063.953240729166,
+        "mean": 2482.7762411779563,
+        "median": 1276.2252546180557
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 64,
+        "S3": 723,
+        "S4": 109,
+        "unknown": 84
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W50",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1003,
+      "openBacklog": {
+        "n": 1003,
+        "min": 1.9575462847222223,
+        "max": 9070.953240729166,
+        "mean": 2431.690394983994,
+        "median": 1231.880335636574
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 65,
+        "S3": 724,
+        "S4": 109,
+        "unknown": 105
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W51",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1008,
+      "openBacklog": {
+        "n": 1008,
+        "min": 2.237025451388889,
+        "max": 9077.953240729166,
+        "mean": 2421.4509420009363,
+        "median": 1225.7766550810186
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 69,
+        "S3": 725,
+        "S4": 110,
+        "unknown": 104
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2024-W52",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1010,
+      "openBacklog": {
+        "n": 1010,
+        "min": 2.843101840277778,
+        "max": 9084.953240729166,
+        "mean": 2415.2540838718132,
+        "median": 1225.3974942013888
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 69,
+        "S3": 725,
+        "S4": 110,
+        "unknown": 106
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W01",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1011,
+      "openBacklog": {
+        "n": 1011,
+        "min": 6.146400451388889,
+        "max": 9091.953240729166,
+        "mean": 2419.795874248875,
+        "median": 1230.5068171180556
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 69,
+        "S3": 725,
+        "S4": 110,
+        "unknown": 107
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W02",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1010,
+      "openBacklog": {
+        "n": 1010,
+        "min": 4.961944432870371,
+        "max": 9098.953240729166,
+        "mean": 2429.0632720708413,
+        "median": 1239.3974942013888
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 68,
+        "S3": 725,
+        "S4": 110,
+        "unknown": 107
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W03",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1017,
+      "openBacklog": {
+        "n": 1017,
+        "min": 3.103900451388889,
+        "max": 9105.953240729166,
+        "mean": 2418.6805498309177,
+        "median": 1210.0374073958333
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 69,
+        "S3": 729,
+        "S4": 111,
+        "unknown": 108
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W04",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1011,
+      "openBacklog": {
+        "n": 1011,
+        "min": 10.151817118055556,
+        "max": 9112.953240729166,
+        "mean": 2439.2081724066397,
+        "median": 1251.5068171180556
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 69,
+        "S3": 725,
+        "S4": 111,
+        "unknown": 106
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W05",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1007,
+      "openBacklog": {
+        "n": 1007,
+        "min": 2.3427893402777777,
+        "max": 9119.953240729166,
+        "mean": 2455.129870053065,
+        "median": 1265.3770485995371
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 68,
+        "S3": 718,
+        "S4": 111,
+        "unknown": 110
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W06",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1009,
+      "openBacklog": {
+        "n": 1009,
+        "min": 1.9375810069444444,
+        "max": 9126.953240729166,
+        "mean": 2457.131320419361,
+        "median": 1269.2881712847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 67,
+        "S3": 722,
+        "S4": 112,
+        "unknown": 108
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W07",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1004,
+      "openBacklog": {
+        "n": 1004,
+        "min": 8.937581006944445,
+        "max": 9133.953240729166,
+        "mean": 2467.395332696943,
+        "median": 1281.7766550810186
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 65,
+        "S3": 720,
+        "S4": 112,
+        "unknown": 107
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W08",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1008,
+      "openBacklog": {
+        "n": 1008,
+        "min": 3.0740740625,
+        "max": 9140.953240729166,
+        "mean": 2463.5682580902767,
+        "median": 1281.3974942013888
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 64,
+        "S3": 723,
+        "S4": 112,
+        "unknown": 109
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W09",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1007,
+      "openBacklog": {
+        "n": 1007,
+        "min": 4.365613414351852,
+        "max": 9147.953240729166,
+        "mean": 2471.6991520352085,
+        "median": 1290.2881712847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 64,
+        "S3": 725,
+        "S4": 111,
+        "unknown": 107
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W10",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1012,
+      "openBacklog": {
+        "n": 1012,
+        "min": 0.34990739583333336,
+        "max": 9154.953240729166,
+        "mean": 2464.764300934937,
+        "median": 1285.3301446643518
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 64,
+        "S3": 730,
+        "S4": 111,
+        "unknown": 107
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W11",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1049,
+      "openBacklog": {
+        "n": 1049,
+        "min": 2.2066782291666667,
+        "max": 9161.953240729166,
+        "mean": 2383.3863750413857,
+        "median": 1123.3832291550925
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 66,
+        "S3": 758,
+        "S4": 112,
+        "unknown": 113
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W12",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1055,
+      "openBacklog": {
+        "n": 1055,
+        "min": 2.0605786921296296,
+        "max": 9168.953240729166,
+        "mean": 2373.4537480466133,
+        "median": 1073.3383448958334
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 71,
+        "S3": 758,
+        "S4": 113,
+        "unknown": 113
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W13",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1061,
+      "openBacklog": {
+        "n": 1061,
+        "min": 3.414224525462963,
+        "max": 9175.953240729166,
+        "mean": 2360.3784854973787,
+        "median": 1051.1430555439815
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 73,
+        "S3": 756,
+        "S4": 112,
+        "unknown": 120
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W14",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1068,
+      "openBacklog": {
+        "n": 1068,
+        "min": 3.185659710648148,
+        "max": 9182.953240729166,
+        "mean": 2351.828098133972,
+        "median": 1019.3369965162037
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 73,
+        "S3": 760,
+        "S4": 114,
+        "unknown": 121
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W15",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1073,
+      "openBacklog": {
+        "n": 1073,
+        "min": 1.4320833217592592,
+        "max": 9189.953240729166,
+        "mean": 2347.6075891724367,
+        "median": 1010.3740624884259
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 72,
+        "S3": 767,
+        "S4": 114,
+        "unknown": 120
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W16",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1082,
+      "openBacklog": {
+        "n": 1082,
+        "min": 2.131701377314815,
+        "max": 9196.953240729166,
+        "mean": 2334.257150648212,
+        "median": 977.8130381828704
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 71,
+        "S3": 778,
+        "S4": 113,
+        "unknown": 120
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W17",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1096,
+      "openBacklog": {
+        "n": 1096,
+        "min": 2.0196296180555557,
+        "max": 9203.953240729166,
+        "mean": 2305.6906267731133,
+        "median": 958.0541203587964
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 70,
+        "S3": 788,
+        "S4": 117,
+        "unknown": 121
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W18",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1102,
+      "openBacklog": {
+        "n": 1102,
+        "min": 1.9412847106481481,
+        "max": 9210.953240729166,
+        "mean": 2292.6648503236743,
+        "median": 960.834537025463
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 71,
+        "S3": 786,
+        "S4": 119,
+        "unknown": 126
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W19",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1108,
+      "openBacklog": {
+        "n": 1108,
+        "min": 2.097476840277778,
+        "max": 9217.953240729166,
+        "mean": 2287.088445375091,
+        "median": 946.7679340162038
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 72,
+        "S3": 787,
+        "S4": 118,
+        "unknown": 131
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W20",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1108,
+      "openBacklog": {
+        "n": 1108,
+        "min": 1.8324305439814814,
+        "max": 9224.953240729166,
+        "mean": 2293.5323732272436,
+        "median": 953.7679340162038
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 72,
+        "S3": 785,
+        "S4": 118,
+        "unknown": 133
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W21",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1105,
+      "openBacklog": {
+        "n": 1105,
+        "min": 3.841134247685185,
+        "max": 9231.953240729166,
+        "mean": 2297.9030613886266,
+        "median": 950.9163194328704
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 73,
+        "S3": 782,
+        "S4": 118,
+        "unknown": 132
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W22",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1104,
+      "openBacklog": {
+        "n": 1104,
+        "min": 4.208935173611111,
+        "max": 9238.953240729166,
+        "mean": 2306.220433051697,
+        "median": 967.7679340162038
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 72,
+        "S3": 780,
+        "S4": 118,
+        "unknown": 134
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W23",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1105,
+      "openBacklog": {
+        "n": 1105,
+        "min": 3.0912615625,
+        "max": 9245.953240729166,
+        "mean": 2301.5269732266524,
+        "median": 962.7819328587963
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 72,
+        "S3": 781,
+        "S4": 117,
+        "unknown": 135
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W24",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1106,
+      "openBacklog": {
+        "n": 1106,
+        "min": 1.3599073958333334,
+        "max": 9252.953240729166,
+        "mean": 2305.4862957614814,
+        "median": 966.9441724421297
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 71,
+        "S3": 782,
+        "S4": 117,
+        "unknown": 136
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W25",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1114,
+      "openBacklog": {
+        "n": 1114,
+        "min": 1.8923958217592594,
+        "max": 9259.953240729166,
+        "mean": 2295.8156045831456,
+        "median": 955.9744791550927
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 73,
+        "S3": 785,
+        "S4": 118,
+        "unknown": 138
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W26",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1121,
+      "openBacklog": {
+        "n": 1121,
+        "min": 2.1358911921296295,
+        "max": 9266.953240729166,
+        "mean": 2279.100543711788,
+        "median": 948.9610185069445
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 75,
+        "S3": 788,
+        "S4": 118,
+        "unknown": 140
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W27",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1125,
+      "openBacklog": {
+        "n": 1125,
+        "min": 2.0488541550925925,
+        "max": 9273.953240729166,
+        "mean": 2275.4602335480963,
+        "median": 951.1583911921297
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 79,
+        "S3": 790,
+        "S4": 118,
+        "unknown": 138
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W28",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1135,
+      "openBacklog": {
+        "n": 1135,
+        "min": 2.0083217476851853,
+        "max": 9280.953240729166,
+        "mean": 2261.894562559808,
+        "median": 949.5456481365741
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 798,
+        "S4": 119,
+        "unknown": 136
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W29",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1137,
+      "openBacklog": {
+        "n": 1137,
+        "min": 2.075763877314815,
+        "max": 9287.953240729166,
+        "mean": 2264.314269396631,
+        "median": 950.0863310069444
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 85,
+        "S3": 797,
+        "S4": 119,
+        "unknown": 136
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W30",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1131,
+      "openBacklog": {
+        "n": 1131,
+        "min": 2.231550914351852,
+        "max": 9294.953240729166,
+        "mean": 2282.4503339275816,
+        "median": 972.046736099537
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 83,
+        "S3": 793,
+        "S4": 119,
+        "unknown": 136
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W31",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1129,
+      "openBacklog": {
+        "n": 1129,
+        "min": 2.3339467476851854,
+        "max": 9301.953240729166,
+        "mean": 2287.415026765646,
+        "median": 970.5456481365741
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 793,
+        "S4": 119,
+        "unknown": 135
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W32",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1146,
+      "openBacklog": {
+        "n": 1146,
+        "min": 0.6836573958333333,
+        "max": 9308.953240729166,
+        "mean": 2259.3932634935322,
+        "median": 941.8736342476852
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 84,
+        "S3": 809,
+        "S4": 119,
+        "unknown": 134
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W33",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1146,
+      "openBacklog": {
+        "n": 1146,
+        "min": 0.31807869212962964,
+        "max": 9315.953240729166,
+        "mean": 2265.9574923127743,
+        "median": 948.8736342476852
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 811,
+        "S4": 119,
+        "unknown": 134
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W34",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1143,
+      "openBacklog": {
+        "n": 1143,
+        "min": 2.2943055439814817,
+        "max": 9322.953240729166,
+        "mean": 2278.147674318486,
+        "median": 958.1742592476852
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 83,
+        "S3": 808,
+        "S4": 119,
+        "unknown": 133
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W35",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1151,
+      "openBacklog": {
+        "n": 1151,
+        "min": 2.5188425810185184,
+        "max": 9329.953240729166,
+        "mean": 2268.514891889993,
+        "median": 957.0909837847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 83,
+        "S3": 809,
+        "S4": 119,
+        "unknown": 140
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W36",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1153,
+      "openBacklog": {
+        "n": 1153,
+        "min": 2.5469675810185186,
+        "max": 9336.953240729166,
+        "mean": 2270.1770844360026,
+        "median": 961.0916550810185
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 83,
+        "S3": 806,
+        "S4": 119,
+        "unknown": 145
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W37",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1149,
+      "openBacklog": {
+        "n": 1149,
+        "min": 5.513101840277778,
+        "max": 9343.953240729166,
+        "mean": 2277.748237606483,
+        "median": 971.0909837847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 80,
+        "S3": 804,
+        "S4": 118,
+        "unknown": 147
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W38",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1145,
+      "openBacklog": {
+        "n": 1145,
+        "min": 2.4474768402777776,
+        "max": 9350.953240729166,
+        "mean": 2285.4166917844796,
+        "median": 982.336273136574
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 77,
+        "S3": 803,
+        "S4": 117,
+        "unknown": 148
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W39",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1147,
+      "openBacklog": {
+        "n": 1147,
+        "min": 1.3449999884259258,
+        "max": 9357.953240729166,
+        "mean": 2288.224053003134,
+        "median": 985.0909837847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 75,
+        "S3": 804,
+        "S4": 117,
+        "unknown": 151
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W40",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1149,
+      "openBacklog": {
+        "n": 1149,
+        "min": 4.4747569328703705,
+        "max": 9364.953240729166,
+        "mean": 2291.234849424731,
+        "median": 989.0916550810185
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 75,
+        "S3": 806,
+        "S4": 117,
+        "unknown": 151
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W41",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1147,
+      "openBacklog": {
+        "n": 1147,
+        "min": 1.1360069328703704,
+        "max": 9371.953240729166,
+        "mean": 2301.3838766977965,
+        "median": 999.0909837847222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 76,
+        "S3": 806,
+        "S4": 117,
+        "unknown": 148
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W42",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1144,
+      "openBacklog": {
+        "n": 1144,
+        "min": 2.1557175810185187,
+        "max": 9378.953240729166,
+        "mean": 2294.250588455225,
+        "median": 1001.6698148032408
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 76,
+        "S3": 802,
+        "S4": 117,
+        "unknown": 149
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W43",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1141,
+      "openBacklog": {
+        "n": 1141,
+        "min": 2.592986099537037,
+        "max": 9385.953240729166,
+        "mean": 2293.80877427268,
+        "median": 1006.3628009143519
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 76,
+        "S3": 797,
+        "S4": 117,
+        "unknown": 151
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W44",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1159,
+      "openBacklog": {
+        "n": 1159,
+        "min": 1.7756481365740742,
+        "max": 9392.953240729166,
+        "mean": 2252.3651216110734,
+        "median": 982.2941203587962
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 76,
+        "S3": 797,
+        "S4": 119,
+        "unknown": 167
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W45",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1169,
+      "openBacklog": {
+        "n": 1169,
+        "min": 2.499189803240741,
+        "max": 9399.953240729166,
+        "mean": 2239.3384621216996,
+        "median": 972.1134722106482
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 77,
+        "S3": 800,
+        "S4": 119,
+        "unknown": 173
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W46",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1171,
+      "openBacklog": {
+        "n": 1171,
+        "min": 0.18834489583333333,
+        "max": 9406.953240729166,
+        "mean": 2241.859178535569,
+        "median": 976.6434143402778
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 77,
+        "S3": 802,
+        "S4": 119,
+        "unknown": 173
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W47",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1171,
+      "openBacklog": {
+        "n": 1171,
+        "min": 2.609872673611111,
+        "max": 9413.953240729166,
+        "mean": 2248.5346246563263,
+        "median": 983.6434143402778
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 78,
+        "S3": 802,
+        "S4": 119,
+        "unknown": 172
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W48",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1190,
+      "openBacklog": {
+        "n": 1190,
+        "min": 2.5316319328703702,
+        "max": 9420.953240729166,
+        "mean": 2218.6928531824815,
+        "median": 934.8129455902778
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 811,
+        "S4": 119,
+        "unknown": 178
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W49",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1198,
+      "openBacklog": {
+        "n": 1198,
+        "min": 1.7639467476851851,
+        "max": 9427.953240729166,
+        "mean": 2210.304733639805,
+        "median": 937.4563599421297
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 812,
+        "S4": 118,
+        "unknown": 186
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W50",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1196,
+      "openBacklog": {
+        "n": 1196,
+        "min": 4.3701041550925925,
+        "max": 9434.953240729166,
+        "mean": 2220.888647108843,
+        "median": 946.0903240625
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 82,
+        "S3": 810,
+        "S4": 118,
+        "unknown": 186
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W51",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1209,
+      "openBacklog": {
+        "n": 1209,
+        "min": 0.2763657291666667,
+        "max": 9441.953240729166,
+        "mean": 2203.936074290344,
+        "median": 927.3828124884259
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 81,
+        "S3": 812,
+        "S4": 119,
+        "unknown": 197
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2025-W52",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1210,
+      "openBacklog": {
+        "n": 1210,
+        "min": 6.023877303240741,
+        "max": 9448.953240729166,
+        "mean": 2209.1138328052307,
+        "median": 933.8219965162036
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 81,
+        "S3": 813,
+        "S4": 119,
+        "unknown": 197
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W01",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1343,
+      "openBacklog": {
+        "n": 1343,
+        "min": 4.193692118055556,
+        "max": 9455.953240729166,
+        "mean": 1996.9305844576215,
+        "median": 836.1785416550925
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 97,
+        "S3": 868,
+        "S4": 143,
+        "unknown": 235
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W02",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1340,
+      "openBacklog": {
+        "n": 1340,
+        "min": 3.0934143402777776,
+        "max": 9462.953240729166,
+        "mean": 2007.9200294936775,
+        "median": 844.234079849537
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 97,
+        "S3": 867,
+        "S4": 142,
+        "unknown": 234
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W03",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1335,
+      "openBacklog": {
+        "n": 1335,
+        "min": 3.225451377314815,
+        "max": 9469.953240729166,
+        "mean": 2016.6589403234236,
+        "median": 851.2389814699075
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 97,
+        "S3": 862,
+        "S4": 143,
+        "unknown": 233
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W04",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1345,
+      "openBacklog": {
+        "n": 1345,
+        "min": 0.7309374884259259,
+        "max": 9476.953240729166,
+        "mean": 1999.7605923572814,
+        "median": 856.9833911921296
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 100,
+        "S3": 866,
+        "S4": 144,
+        "unknown": 235
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W05",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1307,
+      "openBacklog": {
+        "n": 1307,
+        "min": 0.005150451388888889,
+        "max": 9483.953240729166,
+        "mean": 2063.0469438306995,
+        "median": 900.1765046180556
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 94,
+        "S3": 856,
+        "S4": 142,
+        "unknown": 215
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W06",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1304,
+      "openBacklog": {
+        "n": 1304,
+        "min": 2.2935416550925924,
+        "max": 9490.953240729166,
+        "mean": 2068.803998751136,
+        "median": 907.0955266087963
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 96,
+        "S3": 855,
+        "S4": 142,
+        "unknown": 211
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W07",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1334,
+      "openBacklog": {
+        "n": 1334,
+        "min": 2.116562488425926,
+        "max": 9497.953240729166,
+        "mean": 2028.6616442097181,
+        "median": 878.0216435069444
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 108,
+        "S3": 869,
+        "S4": 144,
+        "unknown": 213
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W08",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1356,
+      "openBacklog": {
+        "n": 1356,
+        "min": 2.4110300810185183,
+        "max": 9504.953240729166,
+        "mean": 2002.648657216589,
+        "median": 877.9936458217592
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 108,
+        "S3": 872,
+        "S4": 144,
+        "unknown": 232
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W09",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1351,
+      "openBacklog": {
+        "n": 1351,
+        "min": 0.19565971064814816,
+        "max": 9511.953240729166,
+        "mean": 2016.6285959872748,
+        "median": 886.3080208217592
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 105,
+        "S3": 867,
+        "S4": 142,
+        "unknown": 237
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W10",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1346,
+      "openBacklog": {
+        "n": 1346,
+        "min": 2.4363541550925927,
+        "max": 9518.953240729166,
+        "mean": 2029.3469385168505,
+        "median": 897.4565509143519
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 104,
+        "S3": 866,
+        "S4": 142,
+        "unknown": 234
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W11",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1361,
+      "openBacklog": {
+        "n": 1361,
+        "min": 2.382557858796296,
+        "max": 9525.953240729166,
+        "mean": 2012.6321014609957,
+        "median": 891.3332291550926
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 103,
+        "S3": 867,
+        "S4": 145,
+        "unknown": 246
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W12",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1364,
+      "openBacklog": {
+        "n": 1364,
+        "min": 2.012685173611111,
+        "max": 9532.953240729166,
+        "mean": 2008.322525597338,
+        "median": 890.114994201389
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 102,
+        "S3": 873,
+        "S4": 145,
+        "unknown": 244
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W13",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1357,
+      "openBacklog": {
+        "n": 1357,
+        "min": 2.197233784722222,
+        "max": 9539.953240729166,
+        "mean": 2024.7425591722874,
+        "median": 901.5633796180556
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 101,
+        "S3": 869,
+        "S4": 143,
+        "unknown": 244
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W14",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1372,
+      "openBacklog": {
+        "n": 1372,
+        "min": 3.091874988425926,
+        "max": 9546.953240729166,
+        "mean": 2007.6155086571714,
+        "median": 891.6559953587963
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 101,
+        "S3": 873,
+        "S4": 144,
+        "unknown": 254
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W15",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1371,
+      "openBacklog": {
+        "n": 1371,
+        "min": 3.359259247685185,
+        "max": 9553.953240729166,
+        "mean": 2015.90912355834,
+        "median": 898.693437488426
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 100,
+        "S3": 872,
+        "S4": 145,
+        "unknown": 254
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W16",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1395,
+      "openBacklog": {
+        "n": 1395,
+        "min": 2.0694675810185186,
+        "max": 9560.953240729166,
+        "mean": 1986.883269021348,
+        "median": 859.3022337847223
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 108,
+        "S3": 869,
+        "S4": 145,
+        "unknown": 273
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W17",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1398,
+      "openBacklog": {
+        "n": 1398,
+        "min": 1.9343981365740741,
+        "max": 9567.953240729166,
+        "mean": 1982.2820133971315,
+        "median": 853.9483680439814
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 109,
+        "S3": 868,
+        "S4": 143,
+        "unknown": 278
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W18",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1392,
+      "openBacklog": {
+        "n": 1392,
+        "min": 4.242719895833333,
+        "max": 9574.953240729166,
+        "mean": 1996.57803120683,
+        "median": 872.1966550810185
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 106,
+        "S3": 868,
+        "S4": 143,
+        "unknown": 275
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W19",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1402,
+      "openBacklog": {
+        "n": 1402,
+        "min": 2.458113414351852,
+        "max": 9581.953240729166,
+        "mean": 1988.1306941191651,
+        "median": 857.3043576273149
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 107,
+        "S3": 868,
+        "S4": 145,
+        "unknown": 282
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W20",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1403,
+      "openBacklog": {
+        "n": 1403,
+        "min": 2.004398136574074,
+        "max": 9588.953240729166,
+        "mean": 1993.286494454649,
+        "median": 863.4789698958333
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 104,
+        "S3": 871,
+        "S4": 145,
+        "unknown": 283
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W21",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1412,
+      "openBacklog": {
+        "n": 1412,
+        "min": 2.101122673611111,
+        "max": 9595.953240729166,
+        "mean": 1983.4707455735556,
+        "median": 860.4214525347222
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 107,
+        "S3": 868,
+        "S4": 148,
+        "unknown": 289
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W22",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1419,
+      "openBacklog": {
+        "n": 1419,
+        "min": 2.290590266203704,
+        "max": 9602.953240729166,
+        "mean": 1977.5035168348616,
+        "median": 852.2147453587963
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 106,
+        "S3": 870,
+        "S4": 147,
+        "unknown": 296
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W23",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1413,
+      "openBacklog": {
+        "n": 1413,
+        "min": 2.5380902662037035,
+        "max": 9609.953240729166,
+        "mean": 1991.9337315747541,
+        "median": 872.145474525463
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 105,
+        "S3": 870,
+        "S4": 146,
+        "unknown": 292
+      },
+      "source": "backfill"
+    },
+    {
+      "week": "2026-W24",
+      "capturedAt": "2026-06-11T17:12:42.601Z",
+      "openCount": 1483,
+      "openBacklog": {
+        "n": 1483,
+        "min": 0.5010717708333333,
+        "max": 9639.789810196758,
+        "mean": 2125.2264664912427,
+        "median": 944.8190463078704
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 109,
+        "S3": 918,
+        "S4": 156,
+        "unknown": 300
+      },
+      "source": "snapshot"
+    }
+  ]
+}
