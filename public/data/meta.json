@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T21:22:26.824Z",
-  "lastSuccessfulIngest": "2026-06-11T21:22:26.824Z",
+  "generatedAt": "2026-06-12T10:15:03.686Z",
+  "lastSuccessfulIngest": "2026-06-12T10:15:03.686Z",
   "totalBugs": 7237,
   "totalFetched": 9406,
   "excludedCount": 2154,
@@ -11,21 +11,21 @@
     "Thunderbird": 612,
     "Calendar": 112
   },
-  "engineCount": 1949,
+  "engineCount": 1948,
   "restrictedCount": 14,
   "webaimTotal": 160,
   "rawSeverityCounts": {
     "blocker": 34,
     "normal": 3379,
     "major": 459,
-    "S3": 1591,
+    "S3": 1592,
     "--": 659,
     "minor": 120,
     "S4": 305,
     "critical": 199,
     "trivial": 27,
     "N/A": 70,
-    "S2": 393,
+    "S2": 392,
     "S1": 2
   },
   "caveats": [
