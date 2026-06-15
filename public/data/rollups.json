@@ -12175,7 +12175,7 @@
     },
     {
       "period": "2026-06",
-      "filed": 18,
+      "filed": 21,
       "fixed": 24,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12196,7 +12196,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 13,
+          "filed": 16,
           "fixed": 11
         }
       },
@@ -13287,7 +13287,7 @@
     },
     {
       "period": "2026",
-      "filed": 399,
+      "filed": 402,
       "fixed": 202,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13308,7 +13308,7 @@
           "fixed": 16
         },
         "unknown": {
-          "filed": 187,
+          "filed": 190,
           "fixed": 74
         }
       },
