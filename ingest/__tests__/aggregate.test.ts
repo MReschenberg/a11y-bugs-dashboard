@@ -9,7 +9,7 @@ function bug(p: Partial<NormalizedBug>): NormalizedBug {
   return {
     id: 0, created: "2026-01-01T00:00:00Z", resolved: null, severity: "S3",
     bucket: "open", product: "Core", component: "X",
-    excluded: false, isEngine: false, webaim: false, restricted: false, ...p,
+    excluded: false, brokenOut: false, webaim: false, restricted: false, ...p,
   };
 }
 

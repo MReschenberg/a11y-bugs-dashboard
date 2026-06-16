@@ -36,6 +36,23 @@ describe("views render against real data", () => {
     expect(el.querySelectorAll('input[type="checkbox"]').length).toBeGreaterThan(0);
   });
 
+  it("throughput (FR-1) offers a 'show' toggle per broken-out component that adds an overlay", () => {
+    const el = throughputView(data);
+    // One labelled checkbox per component, named "show <label>".
+    for (const c of data.rollups.components) {
+      const label = el.querySelector<HTMLLabelElement>(`label[for="fr1-comp-${c.key}"]`);
+      expect(label?.textContent?.trim()).toBe(`show ${c.label}`);
+    }
+    // Toggling one on adds a "<label> fixed" data-table column (and so an overlay line).
+    const first = data.rollups.components[0];
+    const cb = el.querySelector<HTMLInputElement>(`#fr1-comp-${first.key}`)!;
+    expect(el.textContent).not.toContain(`${first.label} fixed`);
+    cb.checked = true;
+    cb.dispatchEvent(new Event("change"));
+    const headers = [...el.querySelectorAll("th")].map((th) => th.textContent);
+    expect(headers).toContain(`${first.label} fixed`);
+  });
+
   it("aging (FR-2) shows the stats table + open backlog + raw-severity audit", () => {
     const el = agingView(data);
     expect(el.textContent).toMatch(/Time to close/i);

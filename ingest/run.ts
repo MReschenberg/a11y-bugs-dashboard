@@ -7,15 +7,17 @@ import { existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { fetchAccessBugs } from "./fetchBugs";
+import { fetchAccessBugs, fetchComponentBugs } from "./fetchBugs";
 import { validateRawBugs, ValidationError } from "./validate";
-import { normalizeBug, isGraveyard, isExcludedProduct } from "./classify";
+import {
+  normalizeBug, isGraveyard, isExcludedProduct, brokenOutComponent, BROKEN_OUT_COMPONENTS,
+} from "./classify";
 import {
   buildRollups, monthKey, yearKey, isoWeekKey, computeAging, buildWeeklySnapshot,
   backfillWeeklySnapshots,
 } from "./aggregate";
 import { shouldFreeze } from "./snapshot";
-import type { Meta, WeeklySnapshot, RollupsFile, NormalizedBug } from "./schema";
+import type { Meta, WeeklySnapshot, RollupsFile, ComponentSeries, NormalizedBug } from "./schema";
 
 // Load .env for local runs (gitignored; CI uses an Actions secret instead).
 try {
@@ -91,7 +93,11 @@ async function main(): Promise<void> {
   // excluded from every fine-grained output so they can't be localized by subtracting
   // public-only Bugzilla counts (R15 small-cell mitigation).
   const published = clean.filter((b) => !b.restricted);
-  const engine = published.filter((b) => b.isEngine);
+
+  // The two Disability Access components are pulled out of the main population entirely —
+  // they get their own keyword-independent series (fetched below), so they must not also
+  // count toward the main filed/fixed/backlog/aging/totals.
+  const main = published.filter((b) => !b.brokenOut);
 
   // Breakdown of why bugs were excluded (graveyards collapsed; named products kept distinct).
   const excludedDetail: Record<string, number> = {};
@@ -106,20 +112,40 @@ async function main(): Promise<void> {
   const rawSeverityCounts: Record<string, number> = {};
   for (const b of bugs) {
     if (isExcludedProduct(b.product) || (b.groups && b.groups.length > 0)) continue; // skip excluded + restricted
+    if (brokenOutComponent(b.product, b.component)) continue; // skip broken-out components (not in the main graph)
     const key = b.severity || "--";
     rawSeverityCounts[key] = (rawSeverityCounts[key] ?? 0) + 1;
   }
 
+  // Broken-out series: one keyword-independent fetch per Disability Access component, with
+  // the same dirty/restricted hygiene as the main population.
+  const components: ComponentSeries[] = [];
+  for (const c of BROKEN_OUT_COMPONENTS) {
+    console.error(`Fetching ${c.label} bugs from BMO…`);
+    const { bugs: raw } = await fetchComponentBugs(c.product, c.component, (m) =>
+      process.stderr.write(`  ${m}\r`),
+    );
+    process.stderr.write("\n");
+    validateRawBugs(raw, { allowEmpty: true });
+    const pop = raw.map(normalizeBug).filter((b) => !isDirty(b) && !b.restricted);
+    components.push({
+      key: c.key,
+      label: c.label,
+      monthly: buildRollups(pop, monthKey),
+      yearly: buildRollups(pop, yearKey),
+      total: pop.length,
+    });
+  }
+
   const rollups: RollupsFile = {
-    monthly: buildRollups(published, monthKey),
-    yearly: buildRollups(published, yearKey),
-    engineMonthly: buildRollups(engine, monthKey),
-    engineYearly: buildRollups(engine, yearKey),
+    monthly: buildRollups(main, monthKey),
+    yearly: buildRollups(main, yearKey),
+    components,
   };
-  const aging = computeAging(published, now, WINDOW_MONTHS);
+  const aging = computeAging(main, now, WINDOW_MONTHS);
 
   const currentWeek = isoWeekKey(now);
-  const snapshot = buildWeeklySnapshot(published, currentWeek, now, now, "snapshot");
+  const snapshot = buildWeeklySnapshot(main, currentWeek, now, now, "snapshot");
 
   // Freeze the prior week from the committed current.json (point-in-time, freeze-once).
   const toFreeze = shouldFreeze(prevCurrent, currentWeek);
@@ -134,7 +160,7 @@ async function main(): Promise<void> {
   // overlay any frozen weekly snapshots (authoritative point-in-time), and pin the live
   // current week. Written as one file the static client loads (no per-week fetches).
   const frozen = await readFrozenSnapshots();
-  const backlogWeeks = backfillWeeklySnapshots(published, now, BACKLOG_WEEKS)
+  const backlogWeeks = backfillWeeklySnapshots(main, now, BACKLOG_WEEKS)
     .map((s) => frozen.get(s.week) ?? s);
   const curIdx = backlogWeeks.findIndex((s) => s.week === currentWeek);
   if (curIdx >= 0) backlogWeeks[curIdx] = snapshot;
@@ -143,11 +169,11 @@ async function main(): Promise<void> {
   const meta: Meta = {
     generatedAt: now,
     lastSuccessfulIngest: now,
-    totalBugs: published.length,
+    totalBugs: main.length,
     totalFetched: bugs.length,
     excludedCount: normalized.length - active.length,
     excludedDetail,
-    engineCount: engine.length,
+    componentCounts: Object.fromEntries(components.map((c) => [c.label, c.total])),
     restrictedCount: active.filter((b) => b.restricted).length,
     webaimTotal: published.filter((b) => b.webaim).length,
     rawSeverityCounts,
@@ -158,7 +184,7 @@ async function main(): Promise<void> {
         : "Public bugs only (no API key set); restricted bugs are excluded.",
       "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
       "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",
-      "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded; a11y-engine bugs are a flagged series.",
+      "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded. The Core::Disability Access APIs and Firefox::Disability Access components are excluded from the main counts and shown as their own toggled series (all bugs in the component, not just `access`-keyword ones).",
       "Months with a WebAIM contractor audit batch are marked with *.",
     ],
     bmoQueryBase: "https://bugzilla.mozilla.org/buglist.cgi?keywords=access",
@@ -173,7 +199,8 @@ async function main(): Promise<void> {
   console.log(
     `Ingested ${meta.totalBugs} active bugs ` +
       `(${meta.totalFetched} fetched, ${meta.excludedCount} excluded [${JSON.stringify(excludedDetail)}], ` +
-      `${meta.engineCount} engine, ${meta.restrictedCount} restricted, ${meta.webaimTotal} WebAIM). ` +
+      `${meta.restrictedCount} restricted, ${meta.webaimTotal} WebAIM). ` +
+      `Broken-out components: ${JSON.stringify(meta.componentCounts)}. ` +
       `Week ${currentWeek}.${toFreeze ? ` Froze ${toFreeze.week}.` : ""} ` +
       `Aging (6mo FIXED): median ${aging.overall.median.toFixed(0)}d, n=${aging.overall.n}.`,
   );

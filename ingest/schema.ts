@@ -41,7 +41,7 @@ export interface NormalizedBug {
   product: string;
   component: string;
   excluded: boolean; // graveyard / Thunderbird / SeaMonkey — out of the population
-  isEngine: boolean;
+  brokenOut: boolean; // a Disability Access component shown as its own series, not in main
   webaim: boolean;   // filed by the WebAIM contractor
   restricted: boolean;
 }
@@ -74,11 +74,19 @@ export interface EventRollup {
   buckets: Buckets;        // closed-outcome split for resolutions in-period
 }
 
+/** A Disability Access component broken out of the main population into its own series. */
+export interface ComponentSeries {
+  key: string;             // stable id, e.g. "core-disability-access-apis"
+  label: string;           // "Core::Disability Access APIs"
+  monthly: EventRollup[];
+  yearly: EventRollup[];
+  total: number;           // bugs in the published component population
+}
+
 export interface RollupsFile {
   monthly: EventRollup[];
   yearly: EventRollup[];
-  engineMonthly: EventRollup[]; // a11y-engine-only, flagged series (R13)
-  engineYearly: EventRollup[];
+  components: ComponentSeries[]; // Disability Access components, each its own overlay
 }
 
 /** Open-backlog state over time (FR-2 trend): one entry per ISO week. */
@@ -101,7 +109,7 @@ export interface Meta {
   totalFetched: number;     // raw fetched (incl. excluded)
   excludedCount: number;    // graveyard + Thunderbird + SeaMonkey
   excludedDetail: Record<string, number>;
-  engineCount: number;
+  componentCounts: Record<string, number>; // broken-out Disability Access components (label → total)
   restrictedCount: number;
   webaimTotal: number;      // bugs filed by the WebAIM contractor (shown population; count only)
   rawSeverityCounts: Record<string, number>; // audits the §4.5 normalization (R14)

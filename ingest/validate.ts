@@ -15,10 +15,14 @@ export class ValidationError extends Error {
 export interface ValidateOpts {
   prevTotal?: number;
   dropThreshold?: number; // fractional; default 0.02 (2%)
+  allowEmpty?: boolean;   // a broken-out component fetch may legitimately be empty
 }
 
 export function validateRawBugs(bugs: RawBug[], opts: ValidateOpts = {}): void {
-  if (bugs.length === 0) throw new ValidationError("No bugs returned from BMO.");
+  if (bugs.length === 0) {
+    if (opts.allowEmpty) return;
+    throw new ValidationError("No bugs returned from BMO.");
+  }
 
   const seen = new Set<number>();
   for (const b of bugs) {

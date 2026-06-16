@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-16T11:12:02.976Z",
-  "lastSuccessfulIngest": "2026-06-16T11:12:02.976Z",
-  "totalBugs": 7241,
-  "totalFetched": 9410,
+  "generatedAt": "2026-06-16T19:05:11.580Z",
+  "lastSuccessfulIngest": "2026-06-16T19:05:11.580Z",
+  "totalBugs": 4921,
+  "totalFetched": 9411,
   "excludedCount": 2154,
   "excludedDetail": {
     "SeaMonkey": 498,
@@ -11,29 +11,31 @@
     "Thunderbird": 612,
     "Calendar": 112
   },
-  "engineCount": 1948,
+  "componentCounts": {
+    "Core::Disability Access APIs": 10086,
+    "Firefox::Disability Access": 1167
+  },
   "restrictedCount": 14,
   "webaimTotal": 160,
   "rawSeverityCounts": {
-    "blocker": 34,
-    "normal": 3379,
-    "major": 459,
-    "S3": 1592,
-    "--": 663,
-    "minor": 120,
-    "S4": 305,
-    "critical": 199,
-    "trivial": 27,
+    "blocker": 17,
+    "normal": 1629,
+    "major": 260,
+    "S3": 1444,
+    "--": 652,
+    "minor": 102,
+    "S4": 286,
+    "critical": 59,
+    "trivial": 20,
     "N/A": 70,
-    "S2": 392,
-    "S1": 2
+    "S2": 383
   },
   "caveats": [
     "Bugs missing the `access` keyword are not counted.",
     "Security-restricted bugs are counted only in the overall total.",
     "Severity is normalized to S1–S4 (legacy values mapped; see README for the raw breakdown).",
     "Time-to-close uses the latest resolution; ~7% of bugs are reopened.",
-    "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded; a11y-engine bugs are a flagged series.",
+    "Graveyard products and the Thunderbird family (Thunderbird, SeaMonkey, MailNews Core, Calendar) are excluded. The Core::Disability Access APIs and Firefox::Disability Access components are excluded from the main counts and shown as their own toggled series (all bugs in the component, not just `access`-keyword ones).",
     "Months with a WebAIM contractor audit batch are marked with *."
   ],
   "bmoQueryBase": "https://bugzilla.mozilla.org/buglist.cgi?keywords=access"

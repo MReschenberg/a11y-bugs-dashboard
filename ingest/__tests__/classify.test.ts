@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import {
   mapSeverity, classifyResolution, isKnownResolution,
-  isGraveyard, isExcludedProduct, isEngine, isWebaim, normalizeBug, KNOWN_SEVERITIES,
+  isGraveyard, isExcludedProduct, brokenOutComponent, isWebaim, normalizeBug, KNOWN_SEVERITIES,
 } from "../classify";
 import type { RawBug } from "../schema";
 
@@ -72,10 +72,12 @@ describe("population flags (R13)", () => {
     expect(isExcludedProduct("Firefox")).toBe(false);
     expect(isExcludedProduct("DevTools")).toBe(false);
   });
-  it("detects the a11y engine", () => {
-    expect(isEngine("Core", "Disability Access APIs")).toBe(true);
-    expect(isEngine("Core", "Layout")).toBe(false);
-    expect(isEngine("Firefox", "Disability Access")).toBe(false); // engine = Core only
+  it("detects the broken-out Disability Access components by exact (product, component)", () => {
+    expect(brokenOutComponent("Core", "Disability Access APIs")).toMatchObject({ key: "core-disability-access-apis" });
+    expect(brokenOutComponent("Firefox", "Disability Access")).toMatchObject({ key: "firefox-disability-access" });
+    expect(brokenOutComponent("Core", "Layout")).toBeNull();
+    expect(brokenOutComponent("Core", "Disability Access")).toBeNull(); // exact: Core's component is "Disability Access APIs"
+    expect(brokenOutComponent("Firefox", "Disability Access APIs")).toBeNull();
   });
   it("flags WebAIM contractor filings (case-insensitive)", () => {
     expect(isWebaim("john.northup@usu.edu")).toBe(true);
@@ -103,7 +105,7 @@ describe("normalizeBug", () => {
   it("normalizes severity, bucket, and flags", () => {
     const n = normalizeBug(base);
     expect(n).toMatchObject({
-      id: 1, severity: "S3", bucket: "fixed", isEngine: true, excluded: false,
+      id: 1, severity: "S3", bucket: "fixed", brokenOut: true, excluded: false,
       webaim: false, restricted: false, resolved: "2024-02-01T00:00:00Z",
     });
   });

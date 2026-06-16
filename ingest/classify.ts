@@ -61,9 +61,22 @@ export function isExcludedProduct(product: string): boolean {
   return isGraveyard(product) || EXCLUDED_PRODUCTS.has(product);
 }
 
-/** The a11y engine itself (`Core :: Disability Access*`), shown as a flagged series (R13). */
-export function isEngine(product: string, component: string): boolean {
-  return product === "Core" && /disability access/i.test(component);
+// Disability Access components pulled out of the main population and shown as their own
+// series (a checkbox-toggled overlay each). Matched by exact (product, component) — the
+// Core engine component and the Firefox front-end component, validated to be the only two
+// "Disability Access" components in those products.
+export interface BrokenOutComponent {
+  key: string;
+  label: string;
+  product: string;
+  component: string;
+}
+export const BROKEN_OUT_COMPONENTS: readonly BrokenOutComponent[] = [
+  { key: "core-disability-access-apis", label: "Core::Disability Access APIs", product: "Core", component: "Disability Access APIs" },
+  { key: "firefox-disability-access", label: "Firefox::Disability Access", product: "Firefox", component: "Disability Access" },
+];
+export function brokenOutComponent(product: string, component: string): BrokenOutComponent | null {
+  return BROKEN_OUT_COMPONENTS.find((c) => c.product === product && c.component === component) ?? null;
 }
 
 // WebAIM contractor — bulk a11y-audit filings are attributed to him and flagged in
@@ -83,7 +96,7 @@ export function normalizeBug(b: RawBug): NormalizedBug {
     product: b.product,
     component: b.component,
     excluded: isExcludedProduct(b.product),
-    isEngine: isEngine(b.product, b.component),
+    brokenOut: brokenOutComponent(b.product, b.component) !== null,
     webaim: isWebaim(b.creator),
     restricted: !!(b.groups && b.groups.length > 0),
   };

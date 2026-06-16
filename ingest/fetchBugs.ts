@@ -8,6 +8,10 @@ const BMO = "https://bugzilla.mozilla.org/rest";
 const UA = "a11y-bugs-dashboard/0.1 (mreschenberg@mozilla.com)";
 const PAGE = 500;
 const MAX_PAGES = 200; // safety cap; population is ~10k
+// Anonymous BMO throttles rapid sequential requests (truncated/duplicate pages, which the
+// validator then rejects as an incomplete fetch). Authenticated CI isn't limited this way,
+// so we only pace pages when there's no API key — enough to let public-only runs complete.
+const ANON_PAGE_DELAY_MS = 400;
 
 const FIELDS = [
   "id", "creation_time", "cf_last_resolved", "last_change_time",
@@ -41,14 +45,20 @@ export interface FetchResult {
   usedKey: boolean;
 }
 
-export async function fetchAccessBugs(log: (m: string) => void = () => {}): Promise<FetchResult> {
+// Page a search to exhaustion: de-dupe by id, sort by id, and stop when a page comes back
+// short (the only reliable signal — the BMO search endpoint doesn't always return
+// total_matches). `query` carries the search predicate (keyword, or product+component).
+async function fetchPaged(
+  query: Record<string, string>,
+  log: (m: string) => void,
+): Promise<FetchResult> {
   const byId = new Map<number, RawBug>();
   let totalMatches: number | null = null;
 
   for (let page = 0; page < MAX_PAGES; page++) {
+    if (page > 0 && !process.env.BUGZILLA_API_KEY) await sleep(ANON_PAGE_DELAY_MS);
     const json = await bmoGet({
-      keywords: "access",
-      keywords_type: "allwords",
+      ...query,
       include_fields: FIELDS,
       order: "bug_id",
       limit: String(PAGE),
@@ -66,4 +76,20 @@ export async function fetchAccessBugs(log: (m: string) => void = () => {}): Prom
     totalMatches,
     usedKey: !!process.env.BUGZILLA_API_KEY,
   };
+}
+
+/** All bugs carrying the `access` keyword — the main dashboard population. */
+export function fetchAccessBugs(log: (m: string) => void = () => {}): Promise<FetchResult> {
+  return fetchPaged({ keywords: "access", keywords_type: "allwords" }, log);
+}
+
+/** Every bug in one product/component, regardless of keyword (used for the broken-out
+ *  Disability Access series). `total_matches` is absent here, so completeness rests on the
+ *  short-page break in `fetchPaged`. */
+export function fetchComponentBugs(
+  product: string,
+  component: string,
+  log: (m: string) => void = () => {},
+): Promise<FetchResult> {
+  return fetchPaged({ product, component }, log);
 }

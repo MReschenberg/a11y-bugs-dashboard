@@ -1,22 +1,25 @@
 // FR-1 — Filed vs. fixed per month, filterable by normalized severity.
 // Defaults to current + prior calendar year (deterministic, calendar-aligned).
 import {
-  type DashboardData, type Sev, SEVS, SEV_LABEL, bmoLink, fmt,
+  type DashboardData, type ComponentSeries, type Sev, SEVS, SEV_LABEL, bmoLink, fmt,
   sinceMonth, sumSelected, WEBAIM_SPIKE_MIN,
 } from "../data";
-import { throughputFigure, type MonthPoint, type SeriesName, SERIES_STYLE } from "../charts/throughput";
+import {
+  throughputFigure, type MonthPoint, type Overlay, type SeriesStyle, BASE_STYLE, OVERLAY_PALETTE,
+} from "../charts/throughput";
 import { buildTable, tableToggle } from "../a11y/dataTable";
 import { frag } from "../dom";
 
 const SVGNS = "http://www.w3.org/2000/svg";
 
+interface LegendEntry { label: string; color: string; dash: string | null; }
+
 /** Pattern-aware legend: each series shown by its actual color AND dash pattern + label
  * (so the legend doesn't depend on color alone). */
-function legend(series: SeriesName[]): HTMLElement {
+function legend(entries: LegendEntry[]): HTMLElement {
   const wrap = document.createElement("ul");
   wrap.className = "legend";
-  for (const s of series) {
-    const { color, dash } = SERIES_STYLE[s];
+  for (const { label, color, dash } of entries) {
     const li = document.createElement("li");
     const svg = document.createElementNS(SVGNS, "svg");
     svg.setAttribute("width", "34"); svg.setAttribute("height", "12"); svg.setAttribute("aria-hidden", "true");
@@ -25,7 +28,7 @@ function legend(series: SeriesName[]): HTMLElement {
     line.setAttribute("stroke", color); line.setAttribute("stroke-width", "2.5");
     if (dash) line.setAttribute("stroke-dasharray", dash);
     svg.append(line);
-    li.append(svg, document.createTextNode(` ${s}`));
+    li.append(svg, document.createTextNode(` ${label}`));
     wrap.append(li);
   }
   return wrap;
@@ -34,7 +37,7 @@ function legend(series: SeriesName[]): HTMLElement {
 interface State {
   sevs: Set<Sev>;
   allTime: boolean;
-  showEngine: boolean;
+  shown: Set<string>; // broken-out component keys currently overlaid
 }
 
 const el = <K extends keyof HTMLElementTagNameMap>(
@@ -57,7 +60,14 @@ export function throughputView(data: DashboardData): HTMLElement {
   const state: State = {
     sevs: new Set(SEVS.filter((s) => data.rollups.monthly.some((r) => r.bySeverity[s].filed > 0))),
     allTime: false,
-    showEngine: false,
+    shown: new Set(),
+  };
+
+  // Each component keeps a fixed palette slot by its index, so its line/legend color stays
+  // the same regardless of which boxes are checked.
+  const styleFor = (key: string): SeriesStyle => {
+    const i = data.rollups.components.findIndex((c) => c.key === key);
+    return OVERLAY_PALETTE[i % OVERLAY_PALETTE.length];
   };
 
   const section = el("section", { "aria-labelledby": "fr1-h" });
@@ -89,7 +99,7 @@ export function throughputView(data: DashboardData): HTMLElement {
 
   const opts = el("fieldset");
   opts.append(el("legend", {}, "View"));
-  const mkToggle = (labelText: string, key: "allTime" | "showEngine"): HTMLLabelElement => {
+  const mkToggle = (labelText: string, key: "allTime"): HTMLLabelElement => {
     const id = `fr1-${key}`;
     const label = el("label", { class: "check", for: id });
     const cb = el("input", { type: "checkbox", id });
@@ -101,7 +111,18 @@ export function throughputView(data: DashboardData): HTMLElement {
     return label;
   };
   opts.append(mkToggle("All years (default: this + last year)", "allTime"));
-  opts.append(mkToggle("Overlay a11y-engine fixed", "showEngine"));
+  // One overlay toggle per broken-out Disability Access component.
+  for (const c of data.rollups.components) {
+    const id = `fr1-comp-${c.key}`;
+    const label = el("label", { class: "check", for: id });
+    const cb = el("input", { type: "checkbox", id });
+    cb.addEventListener("change", () => {
+      (cb as HTMLInputElement).checked ? state.shown.add(c.key) : state.shown.delete(c.key);
+      render();
+    });
+    label.append(cb, document.createTextNode(` show ${c.label}`));
+    opts.append(label);
+  }
   controls.append(opts);
 
   section.append(controls);
@@ -130,10 +151,10 @@ export function throughputView(data: DashboardData): HTMLElement {
     }));
   }
 
-  function enginePoints(): MonthPoint[] {
-    const monthly = state.allTime
-      ? data.rollups.engineMonthly
-      : sinceMonth(data.rollups.engineMonthly, defaultFrom);
+  // Component overlays plot the whole component (all keywords), independent of the severity
+  // filter — that filter governs only the main Filed/Fixed lines.
+  function componentPoints(c: ComponentSeries): MonthPoint[] {
+    const monthly = state.allTime ? c.monthly : sinceMonth(c.monthly, defaultFrom);
     return monthly.map((r) => ({ month: r.period, filed: r.filed, fixed: r.fixed }));
   }
 
@@ -147,17 +168,25 @@ export function throughputView(data: DashboardData): HTMLElement {
       return;
     }
     const pts = points();
-    const engine = state.showEngine ? enginePoints() : undefined;
+    const overlays: Overlay[] = data.rollups.components
+      .filter((c) => state.shown.has(c.key))
+      .map((c) => {
+        const style = styleFor(c.key);
+        return { label: c.label, points: componentPoints(c), color: style.color, dash: style.dash };
+      });
 
-    const series: SeriesName[] = ["Filed", "Fixed", ...(engine ? ["Engine fixed" as const] : [])];
-    legendHost.replaceChildren(legend(series));
-    figureHost.replaceChildren(throughputFigure(pts, { engine }));
+    legendHost.replaceChildren(legend([
+      { label: "Filed", ...BASE_STYLE.Filed },
+      { label: "Fixed", ...BASE_STYLE.Fixed },
+      ...overlays.map((o) => ({ label: o.label, color: o.color, dash: o.dash })),
+    ]));
+    figureHost.replaceChildren(throughputFigure(pts, { overlays }));
 
-    const headers = ["Month", "Filed", "Fixed", ...(engine ? ["Engine fixed"] : [])];
-    const engineByMonth = new Map((engine ?? []).map((p) => [p.month, p.fixed]));
+    const headers = ["Month", "Filed", "Fixed", ...overlays.map((o) => `${o.label} fixed`)];
+    const overlayByMonth = overlays.map((o) => new Map(o.points.map((p) => [p.month, p.fixed])));
     const rows = pts.map((p) => [
       p.flagged ? `${p.month} * ${fmt.int(p.webaim ?? 0)}` : p.month, fmt.int(p.filed), fmt.int(p.fixed),
-      ...(engine ? [fmt.int(engineByMonth.get(p.month) ?? 0)] : []),
+      ...overlayByMonth.map((m) => fmt.int(m.get(p.month) ?? 0)),
     ]);
     const table = buildTable("Filed vs. fixed per month (* N = WebAIM audit batch of N bugs)", headers, rows);
     tableHost.replaceChildren(tableToggle(table, "data table"), table);

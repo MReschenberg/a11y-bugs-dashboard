@@ -1,10 +1,10 @@
 // Data layer: load the precomputed JSON and small shared helpers. Types come from
 // the ingestion schema so the contract is single-sourced.
 import type {
-  Meta, RollupsFile, Aging, WeeklySnapshot, EventRollup, Sev, Stats, Bucket, BacklogFile,
+  Meta, RollupsFile, ComponentSeries, Aging, WeeklySnapshot, EventRollup, Sev, Stats, Bucket, BacklogFile,
 } from "../ingest/schema";
 
-export type { Meta, RollupsFile, Aging, WeeklySnapshot, EventRollup, Sev, Stats, Bucket, BacklogFile };
+export type { Meta, RollupsFile, ComponentSeries, Aging, WeeklySnapshot, EventRollup, Sev, Stats, Bucket, BacklogFile };
 
 export const SEVS: readonly Sev[] = ["S1", "S2", "S3", "S4", "unknown"];
 

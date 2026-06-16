@@ -33,7 +33,7 @@ function dictionary(): HTMLElement {
     ["Open backlog age", "Days a still-open bug has been open, as of the last ingest."],
     ["Normalized severity", "Legacy Bugzilla severities mapped to S1–S4 (see map below); unset values shown as Unknown."],
     ["Won't-fix / duplicate / invalid", "Closed without a fix; reported separately, never counted as fixed."],
-    ["A11y engine", "Bugs in Core's Disability Access components (the accessibility engine itself), shown as a flagged series."],
+    ["Disability Access components", "`Core::Disability Access APIs` (the accessibility engine) and `Firefox::Disability Access` (front-end accessibility) are excluded from the counts above and offered as their own toggled series in the filed-vs-fixed graph — each showing every bug in the component, not just `access`-keyword ones."],
   ];
   const dl = el("dl", { class: "dict" });
   for (const [t, d] of terms) {
@@ -73,12 +73,15 @@ export function aboutView(data: DashboardData): HTMLElement {
     .sort((a, b) => b[1] - a[1])
     .map(([k, v]) => `${fmt.int(v)} ${k}`)
     .join(", ");
+  const compParts = Object.entries(meta.componentCounts)
+    .map(([label, n]) => `${fmt.int(n)} in \`${label}\``)
+    .join(", ");
   const intro = el("p");
   intro.append(frag(
     "This dashboard uses the Bugzilla REST API to track all bugs with the `access` keyword. " +
     `It currently tracks ${fmt.int(meta.totalBugs)} bugs. ` +
     `The original fetch pulled ${fmt.int(meta.totalFetched)} bugs, but ${fmt.int(meta.excludedCount)} were excluded — ${exParts}. ` +
-    `${fmt.int(meta.engineCount)} bugs were in the a11y engine component and are represented in their own series.`));
+    `The Disability Access components are tracked separately from those counts (${compParts}) and shown as their own toggled series in the graph above — each including bugs without the \`access\` keyword.`));
   section.append(intro);
 
   section.append(el("h3", {}, "Caveats"));
