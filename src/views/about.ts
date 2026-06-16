@@ -33,7 +33,7 @@ function dictionary(): HTMLElement {
     ["Open backlog age", "Days a still-open bug has been open, as of the last ingest."],
     ["Normalized severity", "Legacy Bugzilla severities mapped to S1–S4 (see map below); unset values shown as Unknown."],
     ["Won't-fix / duplicate / invalid", "Closed without a fix; reported separately, never counted as fixed."],
-    ["Disability Access components", "`Core::Disability Access APIs` (the accessibility engine) and `Firefox::Disability Access` (front-end accessibility) are excluded from the counts above and offered as their own toggled series in the filed-vs-fixed graph — each showing every bug in the component, not just `access`-keyword ones."],
+    ["Disability Access components", "`Core::Disability Access APIs` (the accessibility engine) and `Firefox::Disability Access` (multi-component accessibility) are excluded from the counts above and offered as their own toggled series in the filed-vs-fixed graph — each showing every bug in the component, not just `access`-keyword ones."],
   ];
   const dl = el("dl", { class: "dict" });
   for (const [t, d] of terms) {

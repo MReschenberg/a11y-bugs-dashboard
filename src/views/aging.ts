@@ -52,7 +52,7 @@ export function agingView(data: DashboardData): HTMLElement {
   section.append(
     el("p", { class: "lede" },
       `Days from a bug's creation to its latest FIXED resolution, for everything fixed in the last ${aging.windowMonths} months. ` +
-      `Read the median, not the mean — the distribution is heavily right-skewed, and a handful of decade-old bugs drag the mean far above it.`),
+      `The mean is significantly higher than the median due to a small set of decade-old bugs.`),
   );
 
   // --- aging table ---

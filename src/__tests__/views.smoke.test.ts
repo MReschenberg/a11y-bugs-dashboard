@@ -43,14 +43,14 @@ describe("views render against real data", () => {
       const label = el.querySelector<HTMLLabelElement>(`label[for="fr1-comp-${c.key}"]`);
       expect(label?.textContent?.trim()).toBe(`show ${c.label}`);
     }
-    // Toggling one on adds a "<label> fixed" data-table column (and so an overlay line).
+    // Toggling one on adds a "Fixed <label>" data-table column (and so an overlay line).
     const first = data.rollups.components[0];
+    const overlayHeader = `Fixed ${first.label}`;
     const cb = el.querySelector<HTMLInputElement>(`#fr1-comp-${first.key}`)!;
-    expect(el.textContent).not.toContain(`${first.label} fixed`);
+    expect([...el.querySelectorAll("th")].map((th) => th.textContent)).not.toContain(overlayHeader);
     cb.checked = true;
     cb.dispatchEvent(new Event("change"));
-    const headers = [...el.querySelectorAll("th")].map((th) => th.textContent);
-    expect(headers).toContain(`${first.label} fixed`);
+    expect([...el.querySelectorAll("th")].map((th) => th.textContent)).toContain(overlayHeader);
   });
 
   it("aging (FR-2) shows the stats table + open backlog + raw-severity audit", () => {

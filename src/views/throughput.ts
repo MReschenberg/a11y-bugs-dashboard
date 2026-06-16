@@ -172,7 +172,7 @@ export function throughputView(data: DashboardData): HTMLElement {
       .filter((c) => state.shown.has(c.key))
       .map((c) => {
         const style = styleFor(c.key);
-        return { label: c.label, points: componentPoints(c), color: style.color, dash: style.dash };
+        return { label: `Fixed ${c.label}`, points: componentPoints(c), color: style.color, dash: style.dash };
       });
 
     legendHost.replaceChildren(legend([
@@ -182,7 +182,7 @@ export function throughputView(data: DashboardData): HTMLElement {
     ]));
     figureHost.replaceChildren(throughputFigure(pts, { overlays }));
 
-    const headers = ["Month", "Filed", "Fixed", ...overlays.map((o) => `${o.label} fixed`)];
+    const headers = ["Month", "Filed", "Fixed", ...overlays.map((o) => o.label)];
     const overlayByMonth = overlays.map((o) => new Map(o.points.map((p) => [p.month, p.fixed])));
     const rows = pts.map((p) => [
       p.flagged ? `${p.month} * ${fmt.int(p.webaim ?? 0)}` : p.month, fmt.int(p.filed), fmt.int(p.fixed),
