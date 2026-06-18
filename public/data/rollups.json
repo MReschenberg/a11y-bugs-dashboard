@@ -12151,7 +12151,7 @@
           "fixed": 11
         },
         "S3": {
-          "filed": 20,
+          "filed": 21,
           "fixed": 14
         },
         "S4": {
@@ -12159,7 +12159,7 @@
           "fixed": 3
         },
         "unknown": {
-          "filed": 57,
+          "filed": 56,
           "fixed": 27
         }
       },
@@ -12175,7 +12175,7 @@
     },
     {
       "period": "2026-06",
-      "filed": 24,
+      "filed": 25,
       "fixed": 26,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12188,7 +12188,7 @@
           "fixed": 5
         },
         "S3": {
-          "filed": 4,
+          "filed": 6,
           "fixed": 6
         },
         "S4": {
@@ -12196,7 +12196,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 19,
+          "filed": 18,
           "fixed": 13
         }
       },
@@ -12205,7 +12205,7 @@
         "wontfix": 3,
         "incomplete": 0,
         "duplicate": 2,
-        "invalid": 4,
+        "invalid": 5,
         "other_closed": 0,
         "open": 0
       }
@@ -13287,7 +13287,7 @@
     },
     {
       "period": "2026",
-      "filed": 403,
+      "filed": 404,
       "fixed": 202,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13300,7 +13300,7 @@
           "fixed": 43
         },
         "S3": {
-          "filed": 119,
+          "filed": 122,
           "fixed": 69
         },
         "S4": {
@@ -13308,7 +13308,7 @@
           "fixed": 14
         },
         "unknown": {
-          "filed": 193,
+          "filed": 191,
           "fixed": 76
         }
       },
@@ -13317,7 +13317,7 @@
         "wontfix": 10,
         "incomplete": 0,
         "duplicate": 49,
-        "invalid": 67,
+        "invalid": 68,
         "other_closed": 2,
         "open": 0
       }
@@ -24274,7 +24274,7 @@
             "fixed": 19,
             "wontfix": 3,
             "incomplete": 6,
-            "duplicate": 1,
+            "duplicate": 2,
             "invalid": 1,
             "other_closed": 0,
             "open": 0
@@ -25275,7 +25275,7 @@
             "fixed": 135,
             "wontfix": 6,
             "incomplete": 23,
-            "duplicate": 10,
+            "duplicate": 11,
             "invalid": 19,
             "other_closed": 0,
             "open": 0
