@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-19T10:27:25.274Z",
-  "lastSuccessfulIngest": "2026-06-19T10:27:25.274Z",
-  "totalBugs": 4929,
-  "totalFetched": 9419,
+  "generatedAt": "2026-06-20T08:57:49.489Z",
+  "lastSuccessfulIngest": "2026-06-20T08:57:49.489Z",
+  "totalBugs": 4933,
+  "totalFetched": 9423,
   "excludedCount": 2154,
   "excludedDetail": {
     "SeaMonkey": 498,
@@ -22,7 +22,7 @@
     "normal": 1629,
     "major": 260,
     "S3": 1449,
-    "--": 655,
+    "--": 659,
     "minor": 102,
     "S4": 286,
     "critical": 59,
