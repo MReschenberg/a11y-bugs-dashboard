@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-24T09:31:12.821Z",
-  "lastSuccessfulIngest": "2026-06-24T09:31:12.821Z",
-  "totalBugs": 4944,
-  "totalFetched": 9434,
+  "generatedAt": "2026-06-25T09:22:36.829Z",
+  "lastSuccessfulIngest": "2026-06-25T09:22:36.829Z",
+  "totalBugs": 4955,
+  "totalFetched": 9445,
   "excludedCount": 2154,
   "excludedDetail": {
     "SeaMonkey": 498,
@@ -21,14 +21,14 @@
     "blocker": 17,
     "normal": 1629,
     "major": 260,
-    "S3": 1454,
-    "--": 665,
+    "S3": 1460,
+    "--": 664,
     "minor": 102,
-    "S4": 286,
+    "S4": 289,
     "critical": 59,
     "trivial": 20,
     "N/A": 70,
-    "S2": 383
+    "S2": 386
   },
   "caveats": [
     "Bugs missing the `access` keyword are not counted.",
