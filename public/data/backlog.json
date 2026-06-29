@@ -1,28 +1,8 @@
 {
   "weeks": [
     {
-      "week": "2024-W27",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 780,
-      "openBacklog": {
-        "n": 780,
-        "min": 3.2533564699074073,
-        "max": 8909.953240729166,
-        "mean": 2170.1126574255104,
-        "median": 1058.9443402662037
-      },
-      "openBySeverity": {
-        "S1": 0,
-        "S2": 40,
-        "S3": 573,
-        "S4": 91,
-        "unknown": 76
-      },
-      "source": "backfill"
-    },
-    {
       "week": "2024-W28",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 783,
       "openBacklog": {
         "n": 783,
@@ -42,7 +22,7 @@
     },
     {
       "week": "2024-W29",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 779,
       "openBacklog": {
         "n": 779,
@@ -62,7 +42,7 @@
     },
     {
       "week": "2024-W30",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 779,
       "openBacklog": {
         "n": 779,
@@ -82,7 +62,7 @@
     },
     {
       "week": "2024-W31",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 775,
       "openBacklog": {
         "n": 775,
@@ -102,7 +82,7 @@
     },
     {
       "week": "2024-W32",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 790,
       "openBacklog": {
         "n": 790,
@@ -122,7 +102,7 @@
     },
     {
       "week": "2024-W33",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 793,
       "openBacklog": {
         "n": 793,
@@ -142,7 +122,7 @@
     },
     {
       "week": "2024-W34",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 795,
       "openBacklog": {
         "n": 795,
@@ -162,7 +142,7 @@
     },
     {
       "week": "2024-W35",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 805,
       "openBacklog": {
         "n": 805,
@@ -182,7 +162,7 @@
     },
     {
       "week": "2024-W36",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 806,
       "openBacklog": {
         "n": 806,
@@ -202,7 +182,7 @@
     },
     {
       "week": "2024-W37",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 803,
       "openBacklog": {
         "n": 803,
@@ -222,7 +202,7 @@
     },
     {
       "week": "2024-W38",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 804,
       "openBacklog": {
         "n": 804,
@@ -242,7 +222,7 @@
     },
     {
       "week": "2024-W39",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 806,
       "openBacklog": {
         "n": 806,
@@ -262,7 +242,7 @@
     },
     {
       "week": "2024-W40",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 811,
       "openBacklog": {
         "n": 811,
@@ -282,7 +262,7 @@
     },
     {
       "week": "2024-W41",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 822,
       "openBacklog": {
         "n": 822,
@@ -302,7 +282,7 @@
     },
     {
       "week": "2024-W42",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 825,
       "openBacklog": {
         "n": 825,
@@ -322,7 +302,7 @@
     },
     {
       "week": "2024-W43",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 831,
       "openBacklog": {
         "n": 831,
@@ -342,7 +322,7 @@
     },
     {
       "week": "2024-W44",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 835,
       "openBacklog": {
         "n": 835,
@@ -362,7 +342,7 @@
     },
     {
       "week": "2024-W45",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 836,
       "openBacklog": {
         "n": 836,
@@ -382,7 +362,7 @@
     },
     {
       "week": "2024-W46",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 835,
       "openBacklog": {
         "n": 835,
@@ -402,7 +382,7 @@
     },
     {
       "week": "2024-W47",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 838,
       "openBacklog": {
         "n": 838,
@@ -422,7 +402,7 @@
     },
     {
       "week": "2024-W48",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 840,
       "openBacklog": {
         "n": 840,
@@ -442,7 +422,7 @@
     },
     {
       "week": "2024-W49",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 849,
       "openBacklog": {
         "n": 849,
@@ -462,7 +442,7 @@
     },
     {
       "week": "2024-W50",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 872,
       "openBacklog": {
         "n": 872,
@@ -482,7 +462,7 @@
     },
     {
       "week": "2024-W51",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 878,
       "openBacklog": {
         "n": 878,
@@ -502,7 +482,7 @@
     },
     {
       "week": "2024-W52",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -522,7 +502,7 @@
     },
     {
       "week": "2025-W01",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -542,7 +522,7 @@
     },
     {
       "week": "2025-W02",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -562,7 +542,7 @@
     },
     {
       "week": "2025-W03",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 886,
       "openBacklog": {
         "n": 886,
@@ -582,7 +562,7 @@
     },
     {
       "week": "2025-W04",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -602,7 +582,7 @@
     },
     {
       "week": "2025-W05",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 876,
       "openBacklog": {
         "n": 876,
@@ -622,7 +602,7 @@
     },
     {
       "week": "2025-W06",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 878,
       "openBacklog": {
         "n": 878,
@@ -642,7 +622,7 @@
     },
     {
       "week": "2025-W07",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 873,
       "openBacklog": {
         "n": 873,
@@ -662,7 +642,7 @@
     },
     {
       "week": "2025-W08",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 877,
       "openBacklog": {
         "n": 877,
@@ -682,7 +662,7 @@
     },
     {
       "week": "2025-W09",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 876,
       "openBacklog": {
         "n": 876,
@@ -702,7 +682,7 @@
     },
     {
       "week": "2025-W10",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -722,7 +702,7 @@
     },
     {
       "week": "2025-W11",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 918,
       "openBacklog": {
         "n": 918,
@@ -742,7 +722,7 @@
     },
     {
       "week": "2025-W12",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 920,
       "openBacklog": {
         "n": 920,
@@ -762,7 +742,7 @@
     },
     {
       "week": "2025-W13",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 926,
       "openBacklog": {
         "n": 926,
@@ -782,7 +762,7 @@
     },
     {
       "week": "2025-W14",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 936,
       "openBacklog": {
         "n": 936,
@@ -802,7 +782,7 @@
     },
     {
       "week": "2025-W15",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 941,
       "openBacklog": {
         "n": 941,
@@ -822,7 +802,7 @@
     },
     {
       "week": "2025-W16",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 950,
       "openBacklog": {
         "n": 950,
@@ -842,7 +822,7 @@
     },
     {
       "week": "2025-W17",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 965,
       "openBacklog": {
         "n": 965,
@@ -862,7 +842,7 @@
     },
     {
       "week": "2025-W18",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 971,
       "openBacklog": {
         "n": 971,
@@ -882,7 +862,7 @@
     },
     {
       "week": "2025-W19",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 977,
       "openBacklog": {
         "n": 977,
@@ -902,7 +882,7 @@
     },
     {
       "week": "2025-W20",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 977,
       "openBacklog": {
         "n": 977,
@@ -922,7 +902,7 @@
     },
     {
       "week": "2025-W21",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 975,
       "openBacklog": {
         "n": 975,
@@ -942,7 +922,7 @@
     },
     {
       "week": "2025-W22",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 974,
       "openBacklog": {
         "n": 974,
@@ -962,7 +942,7 @@
     },
     {
       "week": "2025-W23",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 975,
       "openBacklog": {
         "n": 975,
@@ -982,7 +962,7 @@
     },
     {
       "week": "2025-W24",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 976,
       "openBacklog": {
         "n": 976,
@@ -1002,7 +982,7 @@
     },
     {
       "week": "2025-W25",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 984,
       "openBacklog": {
         "n": 984,
@@ -1022,7 +1002,7 @@
     },
     {
       "week": "2025-W26",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 993,
       "openBacklog": {
         "n": 993,
@@ -1042,7 +1022,7 @@
     },
     {
       "week": "2025-W27",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 997,
       "openBacklog": {
         "n": 997,
@@ -1062,7 +1042,7 @@
     },
     {
       "week": "2025-W28",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1007,
       "openBacklog": {
         "n": 1007,
@@ -1082,7 +1062,7 @@
     },
     {
       "week": "2025-W29",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1009,
       "openBacklog": {
         "n": 1009,
@@ -1102,7 +1082,7 @@
     },
     {
       "week": "2025-W30",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1003,
       "openBacklog": {
         "n": 1003,
@@ -1122,7 +1102,7 @@
     },
     {
       "week": "2025-W31",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1001,
       "openBacklog": {
         "n": 1001,
@@ -1142,7 +1122,7 @@
     },
     {
       "week": "2025-W32",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1162,7 +1142,7 @@
     },
     {
       "week": "2025-W33",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1182,7 +1162,7 @@
     },
     {
       "week": "2025-W34",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1015,
       "openBacklog": {
         "n": 1015,
@@ -1202,7 +1182,7 @@
     },
     {
       "week": "2025-W35",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1024,
       "openBacklog": {
         "n": 1024,
@@ -1222,7 +1202,7 @@
     },
     {
       "week": "2025-W36",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1026,
       "openBacklog": {
         "n": 1026,
@@ -1242,7 +1222,7 @@
     },
     {
       "week": "2025-W37",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1022,
       "openBacklog": {
         "n": 1022,
@@ -1262,7 +1242,7 @@
     },
     {
       "week": "2025-W38",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1282,7 +1262,7 @@
     },
     {
       "week": "2025-W39",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1020,
       "openBacklog": {
         "n": 1020,
@@ -1302,7 +1282,7 @@
     },
     {
       "week": "2025-W40",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1022,
       "openBacklog": {
         "n": 1022,
@@ -1322,7 +1302,7 @@
     },
     {
       "week": "2025-W41",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1020,
       "openBacklog": {
         "n": 1020,
@@ -1342,7 +1322,7 @@
     },
     {
       "week": "2025-W42",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1021,
       "openBacklog": {
         "n": 1021,
@@ -1362,7 +1342,7 @@
     },
     {
       "week": "2025-W43",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1382,7 +1362,7 @@
     },
     {
       "week": "2025-W44",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1036,
       "openBacklog": {
         "n": 1036,
@@ -1402,7 +1382,7 @@
     },
     {
       "week": "2025-W45",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1046,
       "openBacklog": {
         "n": 1046,
@@ -1422,7 +1402,7 @@
     },
     {
       "week": "2025-W46",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1048,
       "openBacklog": {
         "n": 1048,
@@ -1442,7 +1422,7 @@
     },
     {
       "week": "2025-W47",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1048,
       "openBacklog": {
         "n": 1048,
@@ -1462,7 +1442,7 @@
     },
     {
       "week": "2025-W48",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1067,
       "openBacklog": {
         "n": 1067,
@@ -1482,7 +1462,7 @@
     },
     {
       "week": "2025-W49",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1075,
       "openBacklog": {
         "n": 1075,
@@ -1502,7 +1482,7 @@
     },
     {
       "week": "2025-W50",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1073,
       "openBacklog": {
         "n": 1073,
@@ -1522,7 +1502,7 @@
     },
     {
       "week": "2025-W51",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1086,
       "openBacklog": {
         "n": 1086,
@@ -1542,7 +1522,7 @@
     },
     {
       "week": "2025-W52",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1087,
       "openBacklog": {
         "n": 1087,
@@ -1562,7 +1542,7 @@
     },
     {
       "week": "2026-W01",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1220,
       "openBacklog": {
         "n": 1220,
@@ -1582,7 +1562,7 @@
     },
     {
       "week": "2026-W02",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1217,
       "openBacklog": {
         "n": 1217,
@@ -1602,7 +1582,7 @@
     },
     {
       "week": "2026-W03",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1212,
       "openBacklog": {
         "n": 1212,
@@ -1622,7 +1602,7 @@
     },
     {
       "week": "2026-W04",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1224,
       "openBacklog": {
         "n": 1224,
@@ -1642,7 +1622,7 @@
     },
     {
       "week": "2026-W05",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1186,
       "openBacklog": {
         "n": 1186,
@@ -1662,7 +1642,7 @@
     },
     {
       "week": "2026-W06",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1183,
       "openBacklog": {
         "n": 1183,
@@ -1682,7 +1662,7 @@
     },
     {
       "week": "2026-W07",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1214,
       "openBacklog": {
         "n": 1214,
@@ -1702,7 +1682,7 @@
     },
     {
       "week": "2026-W08",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1236,
       "openBacklog": {
         "n": 1236,
@@ -1722,7 +1702,7 @@
     },
     {
       "week": "2026-W09",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1231,
       "openBacklog": {
         "n": 1231,
@@ -1742,7 +1722,7 @@
     },
     {
       "week": "2026-W10",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1226,
       "openBacklog": {
         "n": 1226,
@@ -1762,7 +1742,7 @@
     },
     {
       "week": "2026-W11",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1241,
       "openBacklog": {
         "n": 1241,
@@ -1782,7 +1762,7 @@
     },
     {
       "week": "2026-W12",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1243,
       "openBacklog": {
         "n": 1243,
@@ -1802,7 +1782,7 @@
     },
     {
       "week": "2026-W13",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1236,
       "openBacklog": {
         "n": 1236,
@@ -1822,7 +1802,7 @@
     },
     {
       "week": "2026-W14",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
       "openCount": 1251,
       "openBacklog": {
         "n": 1251,
@@ -1842,19 +1822,19 @@
     },
     {
       "week": "2026-W15",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1250,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1251,
       "openBacklog": {
-        "n": 1250,
+        "n": 1251,
         "min": 3.359259247685185,
         "max": 9553.953240729166,
-        "mean": 1681.1826129143517,
-        "median": 721.7884027662037
+        "mean": 1679.8415491194914,
+        "median": 720.4074421180555
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 99,
-        "S3": 769,
+        "S3": 770,
         "S4": 135,
         "unknown": 247
       },
@@ -1862,19 +1842,19 @@
     },
     {
       "week": "2026-W16",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1275,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1276,
       "openBacklog": {
-        "n": 1275,
+        "n": 1276,
         "min": 2.0694675810185186,
         "max": 9560.953240729166,
-        "mean": 1653.7475994437634,
-        "median": 678.0881712847222
+        "mean": 1652.459797097447,
+        "median": 676.6810474421296
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 107,
-        "S3": 766,
+        "S3": 767,
         "S4": 134,
         "unknown": 268
       },
@@ -1882,19 +1862,19 @@
     },
     {
       "week": "2026-W17",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1279,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1280,
       "openBacklog": {
-        "n": 1279,
+        "n": 1280,
         "min": 1.9343981365740741,
         "max": 9567.953240729166,
-        "mean": 1647.5601789929287,
-        "median": 667.5497685069445
+        "mean": 1646.2867037011715,
+        "median": 667.5244386458334
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 108,
-        "S3": 765,
+        "S3": 766,
         "S4": 133,
         "unknown": 273
       },
@@ -1902,19 +1882,19 @@
     },
     {
       "week": "2026-W18",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1273,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1274,
       "openBacklog": {
-        "n": 1273,
+        "n": 1274,
         "min": 4.242719895833333,
         "max": 9574.953240729166,
-        "mean": 1660.960592020953,
-        "median": 689.273923599537
+        "mean": 1659.676095328271,
+        "median": 688.7055439699075
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 105,
-        "S3": 765,
+        "S3": 766,
         "S4": 133,
         "unknown": 270
       },
@@ -1922,19 +1902,19 @@
     },
     {
       "week": "2026-W19",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1283,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1284,
       "openBacklog": {
-        "n": 1283,
+        "n": 1284,
         "min": 2.458113414351852,
         "max": 9581.953240729166,
-        "mean": 1653.6963736226312,
-        "median": 681.4119212847222
+        "mean": 1652.4329900026323,
+        "median": 680.1403877199074
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 106,
-        "S3": 765,
+        "S3": 766,
         "S4": 135,
         "unknown": 277
       },
@@ -1942,19 +1922,19 @@
     },
     {
       "week": "2026-W20",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1284,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1285,
       "openBacklog": {
-        "n": 1284,
+        "n": 1285,
         "min": 2.004398136574074,
         "max": 9588.953240729166,
-        "mean": 1658.9417180082858,
-        "median": 687.1403877199074
+        "mean": 1657.680683056952,
+        "median": 685.8688541550925
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 103,
-        "S3": 768,
+        "S3": 769,
         "S4": 135,
         "unknown": 278
       },
@@ -1962,19 +1942,19 @@
     },
     {
       "week": "2026-W21",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1293,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1294,
       "openBacklog": {
-        "n": 1293,
+        "n": 1294,
         "min": 2.101122673611111,
         "max": 9595.953240729166,
-        "mean": 1649.9055738226043,
-        "median": 692.5293402662037
+        "mean": 1648.6657022860672,
+        "median": 692.5245254513889
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 106,
-        "S3": 765,
+        "S3": 766,
         "S4": 138,
         "unknown": 284
       },
@@ -1982,19 +1962,19 @@
     },
     {
       "week": "2026-W22",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1300,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1301,
       "openBacklog": {
-        "n": 1300,
+        "n": 1301,
         "min": 2.290590266203704,
         "max": 9602.953240729166,
-        "mean": 1644.5474650703345,
-        "median": 699.422673599537
+        "mean": 1643.323763564165,
+        "median": 699.4016550810185
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 105,
-        "S3": 768,
+        "S3": 769,
         "S4": 137,
         "unknown": 290
       },
@@ -2002,19 +1982,19 @@
     },
     {
       "week": "2026-W23",
-      "capturedAt": "2026-06-28T08:52:40.554Z",
-      "openCount": 1297,
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1298,
       "openBacklog": {
-        "n": 1297,
+        "n": 1298,
         "min": 2.39788193287037,
         "max": 9609.953240729166,
-        "mean": 1654.2898505873866,
-        "median": 706.4436921180555
+        "mean": 1653.0612080257195,
+        "median": 706.422673599537
       },
       "openBySeverity": {
         "S1": 0,
         "S2": 104,
-        "S3": 771,
+        "S3": 772,
         "S4": 136,
         "unknown": 286
       },
@@ -2077,6 +2057,26 @@
         "S3": 817,
         "S4": 146,
         "unknown": 304
+      },
+      "source": "snapshot"
+    },
+    {
+      "week": "2026-W27",
+      "capturedAt": "2026-06-29T11:01:08.934Z",
+      "openCount": 1369,
+      "openBacklog": {
+        "n": 1369,
+        "min": 0.3331358101851852,
+        "max": 9657.531781643518,
+        "mean": 1766.4945817831856,
+        "median": 727.9884714583334
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 101,
+        "S3": 816,
+        "S4": 146,
+        "unknown": 306
       },
       "source": "snapshot"
     }
