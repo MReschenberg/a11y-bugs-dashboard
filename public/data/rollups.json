@@ -12175,7 +12175,7 @@
     },
     {
       "period": "2026-06",
-      "filed": 85,
+      "filed": 84,
       "fixed": 46,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12196,7 +12196,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 46,
+          "filed": 45,
           "fixed": 19
         }
       },
@@ -13324,7 +13324,7 @@
     },
     {
       "period": "2026",
-      "filed": 470,
+      "filed": 469,
       "fixed": 228,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13345,7 +13345,7 @@
           "fixed": 15
         },
         "unknown": {
-          "filed": 222,
+          "filed": 221,
           "fixed": 82
         }
       },
@@ -24282,7 +24282,7 @@
         },
         {
           "period": "2026-06",
-          "filed": 49,
+          "filed": 50,
           "fixed": 28,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24299,7 +24299,7 @@
               "fixed": 6
             },
             "S4": {
-              "filed": 9,
+              "filed": 10,
               "fixed": 3
             },
             "unknown": {
@@ -25320,7 +25320,7 @@
         },
         {
           "period": "2026",
-          "filed": 227,
+          "filed": 228,
           "fixed": 146,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25337,7 +25337,7 @@
               "fixed": 51
             },
             "S4": {
-              "filed": 38,
+              "filed": 39,
               "fixed": 15
             },
             "unknown": {
@@ -25356,7 +25356,7 @@
           }
         }
       ],
-      "total": 10103
+      "total": 10104
     },
     {
       "key": "firefox-disability-access",
@@ -33920,7 +33920,7 @@
               "fixed": 0
             },
             "S2": {
-              "filed": 1,
+              "filed": 2,
               "fixed": 0
             },
             "S3": {
@@ -33932,7 +33932,7 @@
               "fixed": 1
             },
             "unknown": {
-              "filed": 1,
+              "filed": 0,
               "fixed": 0
             }
           },
@@ -35328,7 +35328,7 @@
               "fixed": 0
             },
             "S2": {
-              "filed": 2,
+              "filed": 3,
               "fixed": 0
             },
             "S3": {
@@ -35340,7 +35340,7 @@
               "fixed": 2
             },
             "unknown": {
-              "filed": 18,
+              "filed": 17,
               "fixed": 0
             }
           },
