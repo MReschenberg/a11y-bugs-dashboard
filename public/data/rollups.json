@@ -12212,7 +12212,7 @@
     },
     {
       "period": "2026-07",
-      "filed": 19,
+      "filed": 23,
       "fixed": 9,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12225,7 +12225,7 @@
           "fixed": 0
         },
         "S3": {
-          "filed": 3,
+          "filed": 6,
           "fixed": 6
         },
         "S4": {
@@ -12233,7 +12233,7 @@
           "fixed": 3
         },
         "unknown": {
-          "filed": 16,
+          "filed": 17,
           "fixed": 0
         }
       },
@@ -12241,7 +12241,7 @@
         "fixed": 9,
         "wontfix": 0,
         "incomplete": 0,
-        "duplicate": 2,
+        "duplicate": 3,
         "invalid": 0,
         "other_closed": 0,
         "open": 0
@@ -13324,7 +13324,7 @@
     },
     {
       "period": "2026",
-      "filed": 486,
+      "filed": 490,
       "fixed": 230,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13337,7 +13337,7 @@
           "fixed": 46
         },
         "S3": {
-          "filed": 159,
+          "filed": 162,
           "fixed": 86
         },
         "S4": {
@@ -13345,7 +13345,7 @@
           "fixed": 17
         },
         "unknown": {
-          "filed": 225,
+          "filed": 226,
           "fixed": 81
         }
       },
@@ -13353,7 +13353,7 @@
         "fixed": 230,
         "wontfix": 11,
         "incomplete": 0,
-        "duplicate": 54,
+        "duplicate": 55,
         "invalid": 71,
         "other_closed": 2,
         "open": 0
@@ -24319,7 +24319,7 @@
         },
         {
           "period": "2026-07",
-          "filed": 9,
+          "filed": 8,
           "fixed": 3,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24340,7 +24340,7 @@
               "fixed": 1
             },
             "unknown": {
-              "filed": 6,
+              "filed": 5,
               "fixed": 2
             }
           },
@@ -24349,7 +24349,7 @@
             "wontfix": 1,
             "incomplete": 5,
             "duplicate": 0,
-            "invalid": 1,
+            "invalid": 2,
             "other_closed": 0,
             "open": 0
           }
@@ -25320,7 +25320,7 @@
         },
         {
           "period": "2026",
-          "filed": 231,
+          "filed": 230,
           "fixed": 147,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25341,7 +25341,7 @@
               "fixed": 15
             },
             "unknown": {
-              "filed": 83,
+              "filed": 82,
               "fixed": 63
             }
           },
@@ -25350,13 +25350,13 @@
             "wontfix": 7,
             "incomplete": 38,
             "duplicate": 13,
-            "invalid": 21,
+            "invalid": 22,
             "other_closed": 0,
             "open": 0
           }
         }
       ],
-      "total": 10108
+      "total": 10107
     },
     {
       "key": "firefox-disability-access",
