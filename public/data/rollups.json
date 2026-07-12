@@ -12213,7 +12213,7 @@
     {
       "period": "2026-07",
       "filed": 32,
-      "fixed": 9,
+      "fixed": 11,
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
@@ -12222,7 +12222,7 @@
         },
         "S2": {
           "filed": 0,
-          "fixed": 0
+          "fixed": 1
         },
         "S3": {
           "filed": 6,
@@ -12234,11 +12234,11 @@
         },
         "unknown": {
           "filed": 26,
-          "fixed": 0
+          "fixed": 1
         }
       },
       "buckets": {
-        "fixed": 9,
+        "fixed": 11,
         "wontfix": 0,
         "incomplete": 0,
         "duplicate": 3,
@@ -13325,7 +13325,7 @@
     {
       "period": "2026",
       "filed": 499,
-      "fixed": 230,
+      "fixed": 232,
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
@@ -13334,7 +13334,7 @@
         },
         "S2": {
           "filed": 69,
-          "fixed": 46
+          "fixed": 47
         },
         "S3": {
           "filed": 163,
@@ -13346,11 +13346,11 @@
         },
         "unknown": {
           "filed": 235,
-          "fixed": 81
+          "fixed": 82
         }
       },
       "buckets": {
-        "fixed": 230,
+        "fixed": 232,
         "wontfix": 11,
         "incomplete": 0,
         "duplicate": 55,
@@ -24320,7 +24320,7 @@
         {
           "period": "2026-07",
           "filed": 8,
-          "fixed": 5,
+          "fixed": 9,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -24341,11 +24341,11 @@
             },
             "unknown": {
               "filed": 5,
-              "fixed": 3
+              "fixed": 7
             }
           },
           "buckets": {
-            "fixed": 5,
+            "fixed": 9,
             "wontfix": 1,
             "incomplete": 5,
             "duplicate": 0,
@@ -25321,7 +25321,7 @@
         {
           "period": "2026",
           "filed": 230,
-          "fixed": 149,
+          "fixed": 153,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -25342,11 +25342,11 @@
             },
             "unknown": {
               "filed": 82,
-              "fixed": 64
+              "fixed": 68
             }
           },
           "buckets": {
-            "fixed": 149,
+            "fixed": 153,
             "wontfix": 7,
             "incomplete": 38,
             "duplicate": 13,
