@@ -1,28 +1,8 @@
 {
   "weeks": [
     {
-      "week": "2024-W29",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
-      "openCount": 779,
-      "openBacklog": {
-        "n": 779,
-        "min": 2.3560300810185186,
-        "max": 8923.953240729166,
-        "mean": 2175.64235592909,
-        "median": 1066.2881712847222
-      },
-      "openBySeverity": {
-        "S1": 0,
-        "S2": 39,
-        "S3": 571,
-        "S4": 96,
-        "unknown": 73
-      },
-      "source": "backfill"
-    },
-    {
       "week": "2024-W30",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 779,
       "openBacklog": {
         "n": 779,
@@ -42,7 +22,7 @@
     },
     {
       "week": "2024-W31",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 775,
       "openBacklog": {
         "n": 775,
@@ -62,7 +42,7 @@
     },
     {
       "week": "2024-W32",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 790,
       "openBacklog": {
         "n": 790,
@@ -82,7 +62,7 @@
     },
     {
       "week": "2024-W33",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 793,
       "openBacklog": {
         "n": 793,
@@ -102,7 +82,7 @@
     },
     {
       "week": "2024-W34",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 795,
       "openBacklog": {
         "n": 795,
@@ -122,7 +102,7 @@
     },
     {
       "week": "2024-W35",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 805,
       "openBacklog": {
         "n": 805,
@@ -142,7 +122,7 @@
     },
     {
       "week": "2024-W36",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 806,
       "openBacklog": {
         "n": 806,
@@ -162,7 +142,7 @@
     },
     {
       "week": "2024-W37",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 803,
       "openBacklog": {
         "n": 803,
@@ -182,7 +162,7 @@
     },
     {
       "week": "2024-W38",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 804,
       "openBacklog": {
         "n": 804,
@@ -202,7 +182,7 @@
     },
     {
       "week": "2024-W39",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 806,
       "openBacklog": {
         "n": 806,
@@ -222,7 +202,7 @@
     },
     {
       "week": "2024-W40",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 811,
       "openBacklog": {
         "n": 811,
@@ -242,7 +222,7 @@
     },
     {
       "week": "2024-W41",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 822,
       "openBacklog": {
         "n": 822,
@@ -262,7 +242,7 @@
     },
     {
       "week": "2024-W42",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 825,
       "openBacklog": {
         "n": 825,
@@ -282,7 +262,7 @@
     },
     {
       "week": "2024-W43",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 831,
       "openBacklog": {
         "n": 831,
@@ -302,7 +282,7 @@
     },
     {
       "week": "2024-W44",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 835,
       "openBacklog": {
         "n": 835,
@@ -322,7 +302,7 @@
     },
     {
       "week": "2024-W45",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 836,
       "openBacklog": {
         "n": 836,
@@ -342,7 +322,7 @@
     },
     {
       "week": "2024-W46",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 835,
       "openBacklog": {
         "n": 835,
@@ -362,7 +342,7 @@
     },
     {
       "week": "2024-W47",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 838,
       "openBacklog": {
         "n": 838,
@@ -382,7 +362,7 @@
     },
     {
       "week": "2024-W48",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 840,
       "openBacklog": {
         "n": 840,
@@ -402,7 +382,7 @@
     },
     {
       "week": "2024-W49",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 849,
       "openBacklog": {
         "n": 849,
@@ -422,7 +402,7 @@
     },
     {
       "week": "2024-W50",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 872,
       "openBacklog": {
         "n": 872,
@@ -442,7 +422,7 @@
     },
     {
       "week": "2024-W51",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 878,
       "openBacklog": {
         "n": 878,
@@ -462,7 +442,7 @@
     },
     {
       "week": "2024-W52",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -482,7 +462,7 @@
     },
     {
       "week": "2025-W01",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -502,7 +482,7 @@
     },
     {
       "week": "2025-W02",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -522,7 +502,7 @@
     },
     {
       "week": "2025-W03",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 886,
       "openBacklog": {
         "n": 886,
@@ -542,7 +522,7 @@
     },
     {
       "week": "2025-W04",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 880,
       "openBacklog": {
         "n": 880,
@@ -562,7 +542,7 @@
     },
     {
       "week": "2025-W05",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 876,
       "openBacklog": {
         "n": 876,
@@ -582,7 +562,7 @@
     },
     {
       "week": "2025-W06",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 878,
       "openBacklog": {
         "n": 878,
@@ -602,7 +582,7 @@
     },
     {
       "week": "2025-W07",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 873,
       "openBacklog": {
         "n": 873,
@@ -622,7 +602,7 @@
     },
     {
       "week": "2025-W08",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 877,
       "openBacklog": {
         "n": 877,
@@ -642,7 +622,7 @@
     },
     {
       "week": "2025-W09",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 876,
       "openBacklog": {
         "n": 876,
@@ -662,7 +642,7 @@
     },
     {
       "week": "2025-W10",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -682,7 +662,7 @@
     },
     {
       "week": "2025-W11",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 918,
       "openBacklog": {
         "n": 918,
@@ -702,7 +682,7 @@
     },
     {
       "week": "2025-W12",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 920,
       "openBacklog": {
         "n": 920,
@@ -722,7 +702,7 @@
     },
     {
       "week": "2025-W13",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 926,
       "openBacklog": {
         "n": 926,
@@ -742,7 +722,7 @@
     },
     {
       "week": "2025-W14",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 936,
       "openBacklog": {
         "n": 936,
@@ -762,7 +742,7 @@
     },
     {
       "week": "2025-W15",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 941,
       "openBacklog": {
         "n": 941,
@@ -782,7 +762,7 @@
     },
     {
       "week": "2025-W16",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 950,
       "openBacklog": {
         "n": 950,
@@ -802,7 +782,7 @@
     },
     {
       "week": "2025-W17",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 965,
       "openBacklog": {
         "n": 965,
@@ -822,7 +802,7 @@
     },
     {
       "week": "2025-W18",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 971,
       "openBacklog": {
         "n": 971,
@@ -842,7 +822,7 @@
     },
     {
       "week": "2025-W19",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 977,
       "openBacklog": {
         "n": 977,
@@ -862,7 +842,7 @@
     },
     {
       "week": "2025-W20",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 977,
       "openBacklog": {
         "n": 977,
@@ -882,7 +862,7 @@
     },
     {
       "week": "2025-W21",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 975,
       "openBacklog": {
         "n": 975,
@@ -902,7 +882,7 @@
     },
     {
       "week": "2025-W22",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 974,
       "openBacklog": {
         "n": 974,
@@ -922,7 +902,7 @@
     },
     {
       "week": "2025-W23",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 975,
       "openBacklog": {
         "n": 975,
@@ -942,7 +922,7 @@
     },
     {
       "week": "2025-W24",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 976,
       "openBacklog": {
         "n": 976,
@@ -962,7 +942,7 @@
     },
     {
       "week": "2025-W25",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 984,
       "openBacklog": {
         "n": 984,
@@ -982,7 +962,7 @@
     },
     {
       "week": "2025-W26",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 993,
       "openBacklog": {
         "n": 993,
@@ -1002,7 +982,7 @@
     },
     {
       "week": "2025-W27",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 997,
       "openBacklog": {
         "n": 997,
@@ -1022,7 +1002,7 @@
     },
     {
       "week": "2025-W28",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1007,
       "openBacklog": {
         "n": 1007,
@@ -1042,7 +1022,7 @@
     },
     {
       "week": "2025-W29",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1009,
       "openBacklog": {
         "n": 1009,
@@ -1062,7 +1042,7 @@
     },
     {
       "week": "2025-W30",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1003,
       "openBacklog": {
         "n": 1003,
@@ -1082,7 +1062,7 @@
     },
     {
       "week": "2025-W31",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1001,
       "openBacklog": {
         "n": 1001,
@@ -1102,7 +1082,7 @@
     },
     {
       "week": "2025-W32",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1122,7 +1102,7 @@
     },
     {
       "week": "2025-W33",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1142,7 +1122,7 @@
     },
     {
       "week": "2025-W34",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1015,
       "openBacklog": {
         "n": 1015,
@@ -1162,7 +1142,7 @@
     },
     {
       "week": "2025-W35",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1024,
       "openBacklog": {
         "n": 1024,
@@ -1182,7 +1162,7 @@
     },
     {
       "week": "2025-W36",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1026,
       "openBacklog": {
         "n": 1026,
@@ -1202,7 +1182,7 @@
     },
     {
       "week": "2025-W37",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1022,
       "openBacklog": {
         "n": 1022,
@@ -1222,7 +1202,7 @@
     },
     {
       "week": "2025-W38",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1242,7 +1222,7 @@
     },
     {
       "week": "2025-W39",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1020,
       "openBacklog": {
         "n": 1020,
@@ -1262,7 +1242,7 @@
     },
     {
       "week": "2025-W40",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1022,
       "openBacklog": {
         "n": 1022,
@@ -1282,7 +1262,7 @@
     },
     {
       "week": "2025-W41",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1020,
       "openBacklog": {
         "n": 1020,
@@ -1302,7 +1282,7 @@
     },
     {
       "week": "2025-W42",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1021,
       "openBacklog": {
         "n": 1021,
@@ -1322,7 +1302,7 @@
     },
     {
       "week": "2025-W43",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1018,
       "openBacklog": {
         "n": 1018,
@@ -1342,7 +1322,7 @@
     },
     {
       "week": "2025-W44",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1036,
       "openBacklog": {
         "n": 1036,
@@ -1362,7 +1342,7 @@
     },
     {
       "week": "2025-W45",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1046,
       "openBacklog": {
         "n": 1046,
@@ -1382,7 +1362,7 @@
     },
     {
       "week": "2025-W46",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1048,
       "openBacklog": {
         "n": 1048,
@@ -1402,7 +1382,7 @@
     },
     {
       "week": "2025-W47",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1048,
       "openBacklog": {
         "n": 1048,
@@ -1422,7 +1402,7 @@
     },
     {
       "week": "2025-W48",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1067,
       "openBacklog": {
         "n": 1067,
@@ -1442,7 +1422,7 @@
     },
     {
       "week": "2025-W49",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1075,
       "openBacklog": {
         "n": 1075,
@@ -1462,7 +1442,7 @@
     },
     {
       "week": "2025-W50",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1073,
       "openBacklog": {
         "n": 1073,
@@ -1482,7 +1462,7 @@
     },
     {
       "week": "2025-W51",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1086,
       "openBacklog": {
         "n": 1086,
@@ -1502,7 +1482,7 @@
     },
     {
       "week": "2025-W52",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1087,
       "openBacklog": {
         "n": 1087,
@@ -1522,7 +1502,7 @@
     },
     {
       "week": "2026-W01",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1220,
       "openBacklog": {
         "n": 1220,
@@ -1542,7 +1522,7 @@
     },
     {
       "week": "2026-W02",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1217,
       "openBacklog": {
         "n": 1217,
@@ -1562,7 +1542,7 @@
     },
     {
       "week": "2026-W03",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1212,
       "openBacklog": {
         "n": 1212,
@@ -1582,7 +1562,7 @@
     },
     {
       "week": "2026-W04",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1224,
       "openBacklog": {
         "n": 1224,
@@ -1602,7 +1582,7 @@
     },
     {
       "week": "2026-W05",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1186,
       "openBacklog": {
         "n": 1186,
@@ -1622,7 +1602,7 @@
     },
     {
       "week": "2026-W06",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1183,
       "openBacklog": {
         "n": 1183,
@@ -1642,7 +1622,7 @@
     },
     {
       "week": "2026-W07",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1214,
       "openBacklog": {
         "n": 1214,
@@ -1662,7 +1642,7 @@
     },
     {
       "week": "2026-W08",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1236,
       "openBacklog": {
         "n": 1236,
@@ -1682,7 +1662,7 @@
     },
     {
       "week": "2026-W09",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1231,
       "openBacklog": {
         "n": 1231,
@@ -1702,7 +1682,7 @@
     },
     {
       "week": "2026-W10",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1226,
       "openBacklog": {
         "n": 1226,
@@ -1722,7 +1702,7 @@
     },
     {
       "week": "2026-W11",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1241,
       "openBacklog": {
         "n": 1241,
@@ -1742,7 +1722,7 @@
     },
     {
       "week": "2026-W12",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1243,
       "openBacklog": {
         "n": 1243,
@@ -1762,7 +1742,7 @@
     },
     {
       "week": "2026-W13",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1236,
       "openBacklog": {
         "n": 1236,
@@ -1782,7 +1762,7 @@
     },
     {
       "week": "2026-W14",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1251,
       "openBacklog": {
         "n": 1251,
@@ -1802,7 +1782,7 @@
     },
     {
       "week": "2026-W15",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1251,
       "openBacklog": {
         "n": 1251,
@@ -1822,7 +1802,7 @@
     },
     {
       "week": "2026-W16",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1276,
       "openBacklog": {
         "n": 1276,
@@ -1842,7 +1822,7 @@
     },
     {
       "week": "2026-W17",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1280,
       "openBacklog": {
         "n": 1280,
@@ -1862,7 +1842,7 @@
     },
     {
       "week": "2026-W18",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1274,
       "openBacklog": {
         "n": 1274,
@@ -1882,7 +1862,7 @@
     },
     {
       "week": "2026-W19",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1284,
       "openBacklog": {
         "n": 1284,
@@ -1902,7 +1882,7 @@
     },
     {
       "week": "2026-W20",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1285,
       "openBacklog": {
         "n": 1285,
@@ -1922,7 +1902,7 @@
     },
     {
       "week": "2026-W21",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1295,
       "openBacklog": {
         "n": 1295,
@@ -1942,7 +1922,7 @@
     },
     {
       "week": "2026-W22",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1303,
       "openBacklog": {
         "n": 1303,
@@ -1962,7 +1942,7 @@
     },
     {
       "week": "2026-W23",
-      "capturedAt": "2026-07-12T08:18:35.631Z",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
       "openCount": 1300,
       "openBacklog": {
         "n": 1300,
@@ -2070,6 +2050,26 @@
         "max": 9670.41889619213,
         "mean": 1745.6368014008774,
         "median": 730.6739077662037
+      },
+      "openBySeverity": {
+        "S1": 0,
+        "S2": 102,
+        "S3": 826,
+        "S4": 145,
+        "unknown": 322
+      },
+      "source": "snapshot"
+    },
+    {
+      "week": "2026-W29",
+      "capturedAt": "2026-07-13T09:27:51.374Z",
+      "openCount": 1395,
+      "openBacklog": {
+        "n": 1395,
+        "min": 2.764691828703704,
+        "max": 9671.466995069444,
+        "mean": 1746.6849002781905,
+        "median": 731.7220066435185
       },
       "openBySeverity": {
         "S1": 0,

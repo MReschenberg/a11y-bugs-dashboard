@@ -24319,8 +24319,8 @@
         },
         {
           "period": "2026-07",
-          "filed": 8,
-          "fixed": 9,
+          "filed": 9,
+          "fixed": 10,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -24333,10 +24333,10 @@
             },
             "S3": {
               "filed": 2,
-              "fixed": 1
+              "fixed": 2
             },
             "S4": {
-              "filed": 1,
+              "filed": 2,
               "fixed": 1
             },
             "unknown": {
@@ -24345,7 +24345,7 @@
             }
           },
           "buckets": {
-            "fixed": 9,
+            "fixed": 10,
             "wontfix": 1,
             "incomplete": 5,
             "duplicate": 0,
@@ -25320,8 +25320,8 @@
         },
         {
           "period": "2026",
-          "filed": 230,
-          "fixed": 153,
+          "filed": 231,
+          "fixed": 154,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -25334,10 +25334,10 @@
             },
             "S3": {
               "filed": 84,
-              "fixed": 52
+              "fixed": 53
             },
             "S4": {
-              "filed": 39,
+              "filed": 40,
               "fixed": 15
             },
             "unknown": {
@@ -25346,7 +25346,7 @@
             }
           },
           "buckets": {
-            "fixed": 153,
+            "fixed": 154,
             "wontfix": 7,
             "incomplete": 38,
             "duplicate": 13,
@@ -25356,7 +25356,7 @@
           }
         }
       ],
-      "total": 10107
+      "total": 10108
     },
     {
       "key": "firefox-disability-access",
