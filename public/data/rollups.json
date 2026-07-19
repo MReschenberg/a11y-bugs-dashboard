@@ -12212,7 +12212,7 @@
     },
     {
       "period": "2026-07",
-      "filed": 40,
+      "filed": 41,
       "fixed": 17,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12225,7 +12225,7 @@
           "fixed": 1
         },
         "S3": {
-          "filed": 16,
+          "filed": 17,
           "fixed": 8
         },
         "S4": {
@@ -13324,7 +13324,7 @@
     },
     {
       "period": "2026",
-      "filed": 507,
+      "filed": 508,
       "fixed": 238,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13337,7 +13337,7 @@
           "fixed": 47
         },
         "S3": {
-          "filed": 174,
+          "filed": 175,
           "fixed": 88
         },
         "S4": {
@@ -24320,7 +24320,7 @@
         {
           "period": "2026-07",
           "filed": 20,
-          "fixed": 12,
+          "fixed": 14,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -24337,15 +24337,15 @@
             },
             "S4": {
               "filed": 5,
-              "fixed": 2
+              "fixed": 3
             },
             "unknown": {
               "filed": 8,
-              "fixed": 7
+              "fixed": 8
             }
           },
           "buckets": {
-            "fixed": 12,
+            "fixed": 14,
             "wontfix": 2,
             "incomplete": 5,
             "duplicate": 0,
@@ -25321,7 +25321,7 @@
         {
           "period": "2026",
           "filed": 242,
-          "fixed": 156,
+          "fixed": 158,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -25338,15 +25338,15 @@
             },
             "S4": {
               "filed": 43,
-              "fixed": 16
+              "fixed": 17
             },
             "unknown": {
               "filed": 85,
-              "fixed": 68
+              "fixed": 69
             }
           },
           "buckets": {
-            "fixed": 156,
+            "fixed": 158,
             "wontfix": 8,
             "incomplete": 38,
             "duplicate": 13,
