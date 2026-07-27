@@ -12241,7 +12241,7 @@
         "fixed": 26,
         "wontfix": 2,
         "incomplete": 0,
-        "duplicate": 4,
+        "duplicate": 5,
         "invalid": 3,
         "other_closed": 0,
         "open": 0
@@ -13353,7 +13353,7 @@
         "fixed": 247,
         "wontfix": 13,
         "incomplete": 0,
-        "duplicate": 56,
+        "duplicate": 57,
         "invalid": 74,
         "other_closed": 2,
         "open": 0
@@ -24346,7 +24346,7 @@
           },
           "buckets": {
             "fixed": 15,
-            "wontfix": 2,
+            "wontfix": 3,
             "incomplete": 5,
             "duplicate": 0,
             "invalid": 2,
@@ -25347,7 +25347,7 @@
           },
           "buckets": {
             "fixed": 159,
-            "wontfix": 8,
+            "wontfix": 9,
             "incomplete": 38,
             "duplicate": 13,
             "invalid": 22,
