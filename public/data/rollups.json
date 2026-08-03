@@ -12217,7 +12217,7 @@
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
-          "filed": 1,
+          "filed": 0,
           "fixed": 0
         },
         "S2": {
@@ -12233,7 +12233,7 @@
           "fixed": 5
         },
         "unknown": {
-          "filed": 45,
+          "filed": 46,
           "fixed": 9
         }
       },
@@ -13366,7 +13366,7 @@
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
-          "filed": 1,
+          "filed": 0,
           "fixed": 0
         },
         "S2": {
@@ -13382,7 +13382,7 @@
           "fixed": 19
         },
         "unknown": {
-          "filed": 247,
+          "filed": 248,
           "fixed": 90
         }
       },
@@ -24393,7 +24393,7 @@
         },
         {
           "period": "2026-08",
-          "filed": 1,
+          "filed": 2,
           "fixed": 1,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24414,7 +24414,7 @@
               "fixed": 1
             },
             "unknown": {
-              "filed": 1,
+              "filed": 2,
               "fixed": 0
             }
           },
@@ -24422,7 +24422,7 @@
             "fixed": 1,
             "wontfix": 0,
             "incomplete": 0,
-            "duplicate": 0,
+            "duplicate": 1,
             "invalid": 0,
             "other_closed": 0,
             "open": 0
@@ -25394,7 +25394,7 @@
         },
         {
           "period": "2026",
-          "filed": 258,
+          "filed": 259,
           "fixed": 166,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25415,7 +25415,7 @@
               "fixed": 18
             },
             "unknown": {
-              "filed": 92,
+              "filed": 93,
               "fixed": 72
             }
           },
@@ -25423,14 +25423,14 @@
             "fixed": 166,
             "wontfix": 10,
             "incomplete": 38,
-            "duplicate": 14,
+            "duplicate": 15,
             "invalid": 23,
             "other_closed": 0,
             "open": 0
           }
         }
       ],
-      "total": 10134
+      "total": 10135
     },
     {
       "key": "firefox-disability-access",
