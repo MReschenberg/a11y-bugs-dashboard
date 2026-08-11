@@ -12212,7 +12212,7 @@
     },
     {
       "period": "2026-07",
-      "filed": 102,
+      "filed": 103,
       "fixed": 34,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12225,11 +12225,11 @@
           "fixed": 3
         },
         "S3": {
-          "filed": 46,
+          "filed": 48,
           "fixed": 17
         },
         "S4": {
-          "filed": 4,
+          "filed": 3,
           "fixed": 5
         },
         "unknown": {
@@ -12249,7 +12249,7 @@
     },
     {
       "period": "2026-08",
-      "filed": 14,
+      "filed": 17,
       "fixed": 5,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12258,11 +12258,11 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 0,
+          "filed": 1,
           "fixed": 2
         },
         "S3": {
-          "filed": 0,
+          "filed": 1,
           "fixed": 2
         },
         "S4": {
@@ -12270,7 +12270,7 @@
           "fixed": 0
         },
         "unknown": {
-          "filed": 14,
+          "filed": 15,
           "fixed": 1
         }
       },
@@ -12278,7 +12278,7 @@
         "fixed": 5,
         "wontfix": 2,
         "incomplete": 0,
-        "duplicate": 1,
+        "duplicate": 2,
         "invalid": 3,
         "other_closed": 1,
         "open": 0
@@ -13361,7 +13361,7 @@
     },
     {
       "period": "2026",
-      "filed": 585,
+      "filed": 589,
       "fixed": 260,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13370,19 +13370,19 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 86,
+          "filed": 87,
           "fixed": 51
         },
         "S3": {
-          "filed": 207,
+          "filed": 210,
           "fixed": 99
         },
         "S4": {
-          "filed": 40,
+          "filed": 39,
           "fixed": 19
         },
         "unknown": {
-          "filed": 252,
+          "filed": 253,
           "fixed": 91
         }
       },
@@ -13390,7 +13390,7 @@
         "fixed": 260,
         "wontfix": 17,
         "incomplete": 0,
-        "duplicate": 62,
+        "duplicate": 63,
         "invalid": 77,
         "other_closed": 3,
         "open": 0
@@ -24421,7 +24421,7 @@
           "buckets": {
             "fixed": 3,
             "wontfix": 3,
-            "incomplete": 1,
+            "incomplete": 2,
             "duplicate": 1,
             "invalid": 7,
             "other_closed": 0,
@@ -25422,7 +25422,7 @@
           "buckets": {
             "fixed": 168,
             "wontfix": 13,
-            "incomplete": 39,
+            "incomplete": 40,
             "duplicate": 17,
             "invalid": 30,
             "other_closed": 0,
