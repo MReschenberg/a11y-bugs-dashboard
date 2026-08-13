@@ -12249,7 +12249,7 @@
     },
     {
       "period": "2026-08",
-      "filed": 20,
+      "filed": 22,
       "fixed": 7,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12270,7 +12270,7 @@
           "fixed": 0
         },
         "unknown": {
-          "filed": 17,
+          "filed": 19,
           "fixed": 2
         }
       },
@@ -13361,7 +13361,7 @@
     },
     {
       "period": "2026",
-      "filed": 592,
+      "filed": 594,
       "fixed": 262,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13382,7 +13382,7 @@
           "fixed": 19
         },
         "unknown": {
-          "filed": 255,
+          "filed": 257,
           "fixed": 92
         }
       },
@@ -24365,7 +24365,7 @@
               "fixed": 0
             },
             "S2": {
-              "filed": 5,
+              "filed": 6,
               "fixed": 1
             },
             "S3": {
@@ -24377,7 +24377,7 @@
               "fixed": 3
             },
             "unknown": {
-              "filed": 13,
+              "filed": 12,
               "fixed": 11
             }
           },
@@ -24393,7 +24393,7 @@
         },
         {
           "period": "2026-08",
-          "filed": 10,
+          "filed": 12,
           "fixed": 5,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24406,7 +24406,7 @@
               "fixed": 2
             },
             "S3": {
-              "filed": 2,
+              "filed": 3,
               "fixed": 0
             },
             "S4": {
@@ -24414,7 +24414,7 @@
               "fixed": 2
             },
             "unknown": {
-              "filed": 5,
+              "filed": 6,
               "fixed": 1
             }
           },
@@ -25394,7 +25394,7 @@
         },
         {
           "period": "2026",
-          "filed": 269,
+          "filed": 271,
           "fixed": 170,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25403,11 +25403,11 @@
               "fixed": 0
             },
             "S2": {
-              "filed": 37,
+              "filed": 38,
               "fixed": 25
             },
             "S3": {
-              "filed": 90,
+              "filed": 91,
               "fixed": 53
             },
             "S4": {
@@ -25430,7 +25430,7 @@
           }
         }
       ],
-      "total": 10145
+      "total": 10147
     },
     {
       "key": "firefox-disability-access",
