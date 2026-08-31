@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T11:23:15.630Z",
-  "lastSuccessfulIngest": "2026-08-30T11:23:15.630Z",
+  "generatedAt": "2026-08-31T12:53:03.843Z",
+  "lastSuccessfulIngest": "2026-08-31T12:53:03.843Z",
   "totalBugs": 5153,
   "totalFetched": 9649,
   "excludedCount": 2160,
@@ -12,7 +12,7 @@
     "Calendar": 112
   },
   "componentCounts": {
-    "Core::Disability Access APIs": 10183,
+    "Core::Disability Access APIs": 10184,
     "Firefox::Disability Access": 1169
   },
   "restrictedCount": 14,
