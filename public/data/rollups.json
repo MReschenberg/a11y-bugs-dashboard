@@ -12184,7 +12184,7 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 6,
+          "filed": 7,
           "fixed": 8
         },
         "S3": {
@@ -12196,7 +12196,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 32,
+          "filed": 31,
           "fixed": 19
         }
       },
@@ -12258,11 +12258,11 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 2,
+          "filed": 4,
           "fixed": 11
         },
         "S3": {
-          "filed": 16,
+          "filed": 19,
           "fixed": 18
         },
         "S4": {
@@ -12270,7 +12270,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 41,
+          "filed": 36,
           "fixed": 10
         }
       },
@@ -12286,8 +12286,8 @@
     },
     {
       "period": "2026-09",
-      "filed": 1,
-      "fixed": 5,
+      "filed": 2,
+      "fixed": 8,
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
@@ -12295,8 +12295,8 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 0,
-          "fixed": 0
+          "filed": 1,
+          "fixed": 2
         },
         "S3": {
           "filed": 0,
@@ -12308,11 +12308,11 @@
         },
         "unknown": {
           "filed": 1,
-          "fixed": 2
+          "fixed": 3
         }
       },
       "buckets": {
-        "fixed": 5,
+        "fixed": 8,
         "wontfix": 1,
         "incomplete": 0,
         "duplicate": 0,
@@ -13398,8 +13398,8 @@
     },
     {
       "period": "2026",
-      "filed": 636,
-      "fixed": 302,
+      "filed": 637,
+      "fixed": 305,
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
@@ -13407,11 +13407,11 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 88,
-          "fixed": 60
+          "filed": 92,
+          "fixed": 62
         },
         "S3": {
-          "filed": 229,
+          "filed": 232,
           "fixed": 118
         },
         "S4": {
@@ -13419,12 +13419,12 @@
           "fixed": 21
         },
         "unknown": {
-          "filed": 277,
-          "fixed": 103
+          "filed": 271,
+          "fixed": 104
         }
       },
       "buckets": {
-        "fixed": 302,
+        "fixed": 305,
         "wontfix": 22,
         "incomplete": 0,
         "duplicate": 66,
@@ -24245,7 +24245,7 @@
         },
         {
           "period": "2026-03",
-          "filed": 69,
+          "filed": 70,
           "fixed": 27,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24266,7 +24266,7 @@
               "fixed": 1
             },
             "unknown": {
-              "filed": 13,
+              "filed": 14,
               "fixed": 9
             }
           },
@@ -24282,7 +24282,7 @@
         },
         {
           "period": "2026-04",
-          "filed": 36,
+          "filed": 38,
           "fixed": 34,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24303,7 +24303,7 @@
               "fixed": 8
             },
             "unknown": {
-              "filed": 9,
+              "filed": 11,
               "fixed": 6
             }
           },
@@ -24311,7 +24311,7 @@
             "fixed": 34,
             "wontfix": 0,
             "incomplete": 1,
-            "duplicate": 3,
+            "duplicate": 6,
             "invalid": 2,
             "other_closed": 0,
             "open": 0
@@ -24430,7 +24430,7 @@
         },
         {
           "period": "2026-08",
-          "filed": 35,
+          "filed": 36,
           "fixed": 25,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24447,7 +24447,7 @@
               "fixed": 10
             },
             "S4": {
-              "filed": 3,
+              "filed": 4,
               "fixed": 3
             },
             "unknown": {
@@ -24467,8 +24467,8 @@
         },
         {
           "period": "2026-09",
-          "filed": 3,
-          "fixed": 0,
+          "filed": 4,
+          "fixed": 1,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -24488,12 +24488,12 @@
               "fixed": 0
             },
             "unknown": {
-              "filed": 1,
-              "fixed": 0
+              "filed": 2,
+              "fixed": 1
             }
           },
           "buckets": {
-            "fixed": 0,
+            "fixed": 1,
             "wontfix": 0,
             "incomplete": 0,
             "duplicate": 1,
@@ -25468,8 +25468,8 @@
         },
         {
           "period": "2026",
-          "filed": 311,
-          "fixed": 203,
+          "filed": 316,
+          "fixed": 204,
           "webaimFiled": 0,
           "bySeverity": {
             "S1": {
@@ -25485,26 +25485,26 @@
               "fixed": 64
             },
             "S4": {
-              "filed": 47,
+              "filed": 48,
               "fixed": 20
             },
             "unknown": {
-              "filed": 106,
-              "fixed": 82
+              "filed": 110,
+              "fixed": 83
             }
           },
           "buckets": {
-            "fixed": 203,
+            "fixed": 204,
             "wontfix": 14,
             "incomplete": 40,
-            "duplicate": 19,
+            "duplicate": 22,
             "invalid": 33,
             "other_closed": 0,
             "open": 0
           }
         }
       ],
-      "total": 10188
+      "total": 10193
     },
     {
       "key": "firefox-disability-access",
