@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T11:04:34.153Z",
-  "lastSuccessfulIngest": "2026-09-22T11:04:34.153Z",
-  "totalBugs": 5201,
-  "totalFetched": 9699,
+  "generatedAt": "2026-09-23T10:54:11.081Z",
+  "lastSuccessfulIngest": "2026-09-23T10:54:11.081Z",
+  "totalBugs": 5202,
+  "totalFetched": 9700,
   "excludedCount": 2162,
   "excludedDetail": {
     "SeaMonkey": 498,
@@ -28,7 +28,7 @@
     "critical": 59,
     "trivial": 20,
     "N/A": 70,
-    "S2": 420
+    "S2": 421
   },
   "caveats": [
     "Bugs missing the `access` keyword are not counted.",
