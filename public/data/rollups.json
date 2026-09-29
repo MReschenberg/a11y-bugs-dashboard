@@ -12316,7 +12316,7 @@
         "wontfix": 1,
         "incomplete": 1,
         "duplicate": 2,
-        "invalid": 0,
+        "invalid": 1,
         "other_closed": 0,
         "open": 0
       }
@@ -13428,7 +13428,7 @@
         "wontfix": 22,
         "incomplete": 1,
         "duplicate": 68,
-        "invalid": 83,
+        "invalid": 84,
         "other_closed": 3,
         "open": 0
       }
@@ -24467,7 +24467,7 @@
         },
         {
           "period": "2026-09",
-          "filed": 43,
+          "filed": 44,
           "fixed": 37,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24480,7 +24480,7 @@
               "fixed": 7
             },
             "S3": {
-              "filed": 13,
+              "filed": 14,
               "fixed": 11
             },
             "S4": {
@@ -25468,7 +25468,7 @@
         },
         {
           "period": "2026",
-          "filed": 378,
+          "filed": 379,
           "fixed": 256,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25481,7 +25481,7 @@
               "fixed": 57
             },
             "S3": {
-              "filed": 120,
+              "filed": 121,
               "fixed": 78
             },
             "S4": {
@@ -25504,7 +25504,7 @@
           }
         }
       ],
-      "total": 10255
+      "total": 10256
     },
     {
       "key": "firefox-disability-access",
