@@ -12352,7 +12352,7 @@
         "fixed": 7,
         "wontfix": 1,
         "incomplete": 0,
-        "duplicate": 1,
+        "duplicate": 2,
         "invalid": 2,
         "other_closed": 0,
         "open": 0
@@ -13464,7 +13464,7 @@
         "fixed": 362,
         "wontfix": 24,
         "incomplete": 1,
-        "duplicate": 69,
+        "duplicate": 70,
         "invalid": 87,
         "other_closed": 3,
         "open": 0
