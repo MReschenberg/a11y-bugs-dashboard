@@ -2,7 +2,7 @@
   "weeks": [
     {
       "week": "2024-W43",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 832,
       "openBacklog": {
         "n": 832,
@@ -14,15 +14,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 58,
-        "S3": 596,
+        "S3": 598,
         "S4": 99,
-        "unknown": 79
+        "unknown": 77
       },
       "source": "backfill"
     },
     {
       "week": "2024-W44",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 836,
       "openBacklog": {
         "n": 836,
@@ -34,15 +34,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 58,
-        "S3": 599,
+        "S3": 601,
         "S4": 99,
-        "unknown": 80
+        "unknown": 78
       },
       "source": "backfill"
     },
     {
       "week": "2024-W45",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 837,
       "openBacklog": {
         "n": 837,
@@ -54,15 +54,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 58,
-        "S3": 601,
+        "S3": 603,
         "S4": 98,
-        "unknown": 80
+        "unknown": 78
       },
       "source": "backfill"
     },
     {
       "week": "2024-W46",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 836,
       "openBacklog": {
         "n": 836,
@@ -74,15 +74,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 58,
-        "S3": 601,
+        "S3": 603,
         "S4": 98,
-        "unknown": 79
+        "unknown": 77
       },
       "source": "backfill"
     },
     {
       "week": "2024-W47",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 839,
       "openBacklog": {
         "n": 839,
@@ -94,15 +94,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 57,
-        "S3": 608,
+        "S3": 610,
         "S4": 98,
-        "unknown": 76
+        "unknown": 74
       },
       "source": "backfill"
     },
     {
       "week": "2024-W48",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 841,
       "openBacklog": {
         "n": 841,
@@ -114,15 +114,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 57,
-        "S3": 609,
+        "S3": 611,
         "S4": 98,
-        "unknown": 77
+        "unknown": 75
       },
       "source": "backfill"
     },
     {
       "week": "2024-W49",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 850,
       "openBacklog": {
         "n": 850,
@@ -134,15 +134,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 64,
-        "S3": 611,
+        "S3": 613,
         "S4": 98,
-        "unknown": 77
+        "unknown": 75
       },
       "source": "backfill"
     },
     {
       "week": "2024-W50",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 873,
       "openBacklog": {
         "n": 873,
@@ -154,15 +154,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 65,
-        "S3": 612,
+        "S3": 614,
         "S4": 98,
-        "unknown": 98
+        "unknown": 96
       },
       "source": "backfill"
     },
     {
       "week": "2024-W51",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 879,
       "openBacklog": {
         "n": 879,
@@ -174,15 +174,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 69,
-        "S3": 614,
+        "S3": 616,
         "S4": 99,
-        "unknown": 97
+        "unknown": 95
       },
       "source": "backfill"
     },
     {
       "week": "2024-W52",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -194,15 +194,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 69,
-        "S3": 614,
+        "S3": 616,
         "S4": 99,
-        "unknown": 99
+        "unknown": 97
       },
       "source": "backfill"
     },
     {
       "week": "2025-W01",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 882,
       "openBacklog": {
         "n": 882,
@@ -214,15 +214,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 69,
-        "S3": 614,
+        "S3": 616,
         "S4": 99,
-        "unknown": 100
+        "unknown": 98
       },
       "source": "backfill"
     },
     {
       "week": "2025-W02",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -234,15 +234,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 68,
-        "S3": 614,
+        "S3": 616,
         "S4": 99,
-        "unknown": 100
+        "unknown": 98
       },
       "source": "backfill"
     },
     {
       "week": "2025-W03",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 887,
       "openBacklog": {
         "n": 887,
@@ -254,15 +254,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 68,
-        "S3": 618,
+        "S3": 620,
         "S4": 100,
-        "unknown": 101
+        "unknown": 99
       },
       "source": "backfill"
     },
     {
       "week": "2025-W04",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 881,
       "openBacklog": {
         "n": 881,
@@ -274,15 +274,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 68,
-        "S3": 614,
+        "S3": 616,
         "S4": 100,
-        "unknown": 99
+        "unknown": 97
       },
       "source": "backfill"
     },
     {
       "week": "2025-W05",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 877,
       "openBacklog": {
         "n": 877,
@@ -294,15 +294,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 67,
-        "S3": 607,
+        "S3": 609,
         "S4": 100,
-        "unknown": 103
+        "unknown": 101
       },
       "source": "backfill"
     },
     {
       "week": "2025-W06",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 879,
       "openBacklog": {
         "n": 879,
@@ -314,15 +314,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 66,
-        "S3": 611,
+        "S3": 613,
         "S4": 101,
-        "unknown": 101
+        "unknown": 99
       },
       "source": "backfill"
     },
     {
       "week": "2025-W07",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 874,
       "openBacklog": {
         "n": 874,
@@ -334,15 +334,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 64,
-        "S3": 609,
+        "S3": 611,
         "S4": 101,
-        "unknown": 100
+        "unknown": 98
       },
       "source": "backfill"
     },
     {
       "week": "2025-W08",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 878,
       "openBacklog": {
         "n": 878,
@@ -354,15 +354,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 63,
-        "S3": 612,
+        "S3": 614,
         "S4": 101,
-        "unknown": 102
+        "unknown": 100
       },
       "source": "backfill"
     },
     {
       "week": "2025-W09",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 877,
       "openBacklog": {
         "n": 877,
@@ -374,15 +374,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 63,
-        "S3": 614,
+        "S3": 616,
         "S4": 100,
-        "unknown": 100
+        "unknown": 98
       },
       "source": "backfill"
     },
     {
       "week": "2025-W10",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 882,
       "openBacklog": {
         "n": 882,
@@ -394,15 +394,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 63,
-        "S3": 619,
+        "S3": 621,
         "S4": 100,
-        "unknown": 100
+        "unknown": 98
       },
       "source": "backfill"
     },
     {
       "week": "2025-W11",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 919,
       "openBacklog": {
         "n": 919,
@@ -414,15 +414,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 65,
-        "S3": 647,
+        "S3": 649,
         "S4": 101,
-        "unknown": 106
+        "unknown": 104
       },
       "source": "backfill"
     },
     {
       "week": "2025-W12",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 921,
       "openBacklog": {
         "n": 921,
@@ -434,15 +434,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 69,
-        "S3": 645,
+        "S3": 647,
         "S4": 102,
-        "unknown": 105
+        "unknown": 103
       },
       "source": "backfill"
     },
     {
       "week": "2025-W13",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 927,
       "openBacklog": {
         "n": 927,
@@ -454,15 +454,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 644,
+        "S3": 646,
         "S4": 101,
-        "unknown": 111
+        "unknown": 109
       },
       "source": "backfill"
     },
     {
       "week": "2025-W14",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 937,
       "openBacklog": {
         "n": 937,
@@ -474,15 +474,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 72,
-        "S3": 650,
+        "S3": 652,
         "S4": 103,
-        "unknown": 112
+        "unknown": 110
       },
       "source": "backfill"
     },
     {
       "week": "2025-W15",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 942,
       "openBacklog": {
         "n": 942,
@@ -494,15 +494,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 657,
+        "S3": 659,
         "S4": 103,
-        "unknown": 111
+        "unknown": 109
       },
       "source": "backfill"
     },
     {
       "week": "2025-W16",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 951,
       "openBacklog": {
         "n": 951,
@@ -514,15 +514,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 70,
-        "S3": 668,
+        "S3": 670,
         "S4": 102,
-        "unknown": 111
+        "unknown": 109
       },
       "source": "backfill"
     },
     {
       "week": "2025-W17",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 966,
       "openBacklog": {
         "n": 966,
@@ -534,15 +534,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 69,
-        "S3": 679,
+        "S3": 681,
         "S4": 106,
-        "unknown": 112
+        "unknown": 110
       },
       "source": "backfill"
     },
     {
       "week": "2025-W18",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 972,
       "openBacklog": {
         "n": 972,
@@ -554,15 +554,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 70,
-        "S3": 677,
+        "S3": 679,
         "S4": 108,
-        "unknown": 117
+        "unknown": 115
       },
       "source": "backfill"
     },
     {
       "week": "2025-W19",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 978,
       "openBacklog": {
         "n": 978,
@@ -574,15 +574,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 678,
+        "S3": 680,
         "S4": 107,
-        "unknown": 122
+        "unknown": 120
       },
       "source": "backfill"
     },
     {
       "week": "2025-W20",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 978,
       "openBacklog": {
         "n": 978,
@@ -594,15 +594,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 676,
+        "S3": 678,
         "S4": 107,
-        "unknown": 124
+        "unknown": 122
       },
       "source": "backfill"
     },
     {
       "week": "2025-W21",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 976,
       "openBacklog": {
         "n": 976,
@@ -614,15 +614,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 72,
-        "S3": 674,
+        "S3": 676,
         "S4": 107,
-        "unknown": 123
+        "unknown": 121
       },
       "source": "backfill"
     },
     {
       "week": "2025-W22",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 975,
       "openBacklog": {
         "n": 975,
@@ -634,15 +634,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 673,
+        "S3": 675,
         "S4": 107,
-        "unknown": 124
+        "unknown": 122
       },
       "source": "backfill"
     },
     {
       "week": "2025-W23",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 976,
       "openBacklog": {
         "n": 976,
@@ -654,15 +654,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 71,
-        "S3": 674,
+        "S3": 676,
         "S4": 106,
-        "unknown": 125
+        "unknown": 123
       },
       "source": "backfill"
     },
     {
       "week": "2025-W24",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 977,
       "openBacklog": {
         "n": 977,
@@ -674,15 +674,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 70,
-        "S3": 675,
+        "S3": 677,
         "S4": 106,
-        "unknown": 126
+        "unknown": 124
       },
       "source": "backfill"
     },
     {
       "week": "2025-W25",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 985,
       "openBacklog": {
         "n": 985,
@@ -694,15 +694,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 72,
-        "S3": 678,
+        "S3": 680,
         "S4": 107,
-        "unknown": 128
+        "unknown": 126
       },
       "source": "backfill"
     },
     {
       "week": "2025-W26",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 994,
       "openBacklog": {
         "n": 994,
@@ -714,15 +714,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 74,
-        "S3": 683,
+        "S3": 685,
         "S4": 107,
-        "unknown": 130
+        "unknown": 128
       },
       "source": "backfill"
     },
     {
       "week": "2025-W27",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 998,
       "openBacklog": {
         "n": 998,
@@ -734,15 +734,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 78,
-        "S3": 685,
+        "S3": 687,
         "S4": 107,
-        "unknown": 128
+        "unknown": 126
       },
       "source": "backfill"
     },
     {
       "week": "2025-W28",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1008,
       "openBacklog": {
         "n": 1008,
@@ -754,15 +754,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 81,
-        "S3": 693,
+        "S3": 695,
         "S4": 108,
-        "unknown": 126
+        "unknown": 124
       },
       "source": "backfill"
     },
     {
       "week": "2025-W29",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1010,
       "openBacklog": {
         "n": 1010,
@@ -774,15 +774,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 84,
-        "S3": 692,
+        "S3": 694,
         "S4": 108,
-        "unknown": 126
+        "unknown": 124
       },
       "source": "backfill"
     },
     {
       "week": "2025-W30",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1004,
       "openBacklog": {
         "n": 1004,
@@ -794,15 +794,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 82,
-        "S3": 688,
+        "S3": 690,
         "S4": 108,
-        "unknown": 126
+        "unknown": 124
       },
       "source": "backfill"
     },
     {
       "week": "2025-W31",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1002,
       "openBacklog": {
         "n": 1002,
@@ -814,15 +814,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 81,
-        "S3": 688,
+        "S3": 690,
         "S4": 108,
-        "unknown": 125
+        "unknown": 123
       },
       "source": "backfill"
     },
     {
       "week": "2025-W32",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1019,
       "openBacklog": {
         "n": 1019,
@@ -834,15 +834,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 83,
-        "S3": 704,
+        "S3": 706,
         "S4": 108,
-        "unknown": 124
+        "unknown": 122
       },
       "source": "backfill"
     },
     {
       "week": "2025-W33",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1019,
       "openBacklog": {
         "n": 1019,
@@ -854,15 +854,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 81,
-        "S3": 706,
+        "S3": 708,
         "S4": 108,
-        "unknown": 124
+        "unknown": 122
       },
       "source": "backfill"
     },
     {
       "week": "2025-W34",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1016,
       "openBacklog": {
         "n": 1016,
@@ -874,15 +874,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 82,
-        "S3": 703,
+        "S3": 705,
         "S4": 108,
-        "unknown": 123
+        "unknown": 121
       },
       "source": "backfill"
     },
     {
       "week": "2025-W35",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1025,
       "openBacklog": {
         "n": 1025,
@@ -894,15 +894,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 83,
-        "S3": 704,
+        "S3": 706,
         "S4": 108,
-        "unknown": 130
+        "unknown": 128
       },
       "source": "backfill"
     },
     {
       "week": "2025-W36",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1027,
       "openBacklog": {
         "n": 1027,
@@ -914,15 +914,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 83,
-        "S3": 701,
+        "S3": 703,
         "S4": 108,
-        "unknown": 135
+        "unknown": 133
       },
       "source": "backfill"
     },
     {
       "week": "2025-W37",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1023,
       "openBacklog": {
         "n": 1023,
@@ -934,15 +934,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 80,
-        "S3": 699,
+        "S3": 701,
         "S4": 107,
-        "unknown": 137
+        "unknown": 135
       },
       "source": "backfill"
     },
     {
       "week": "2025-W38",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1019,
       "openBacklog": {
         "n": 1019,
@@ -954,15 +954,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 77,
-        "S3": 698,
+        "S3": 700,
         "S4": 106,
-        "unknown": 138
+        "unknown": 136
       },
       "source": "backfill"
     },
     {
       "week": "2025-W39",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1021,
       "openBacklog": {
         "n": 1021,
@@ -974,15 +974,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 75,
-        "S3": 699,
+        "S3": 701,
         "S4": 106,
-        "unknown": 141
+        "unknown": 139
       },
       "source": "backfill"
     },
     {
       "week": "2025-W40",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1023,
       "openBacklog": {
         "n": 1023,
@@ -994,15 +994,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 75,
-        "S3": 701,
+        "S3": 703,
         "S4": 106,
-        "unknown": 141
+        "unknown": 139
       },
       "source": "backfill"
     },
     {
       "week": "2025-W41",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1021,
       "openBacklog": {
         "n": 1021,
@@ -1014,15 +1014,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 76,
-        "S3": 701,
+        "S3": 703,
         "S4": 106,
-        "unknown": 138
+        "unknown": 136
       },
       "source": "backfill"
     },
     {
       "week": "2025-W42",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1022,
       "openBacklog": {
         "n": 1022,
@@ -1034,15 +1034,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 76,
-        "S3": 701,
+        "S3": 703,
         "S4": 106,
-        "unknown": 139
+        "unknown": 137
       },
       "source": "backfill"
     },
     {
       "week": "2025-W43",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1019,
       "openBacklog": {
         "n": 1019,
@@ -1054,15 +1054,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 76,
-        "S3": 696,
+        "S3": 698,
         "S4": 106,
-        "unknown": 141
+        "unknown": 139
       },
       "source": "backfill"
     },
     {
       "week": "2025-W44",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1037,
       "openBacklog": {
         "n": 1037,
@@ -1074,15 +1074,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 76,
-        "S3": 696,
+        "S3": 698,
         "S4": 108,
-        "unknown": 157
+        "unknown": 155
       },
       "source": "backfill"
     },
     {
       "week": "2025-W45",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1047,
       "openBacklog": {
         "n": 1047,
@@ -1094,15 +1094,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 77,
-        "S3": 699,
+        "S3": 701,
         "S4": 108,
-        "unknown": 163
+        "unknown": 161
       },
       "source": "backfill"
     },
     {
       "week": "2025-W46",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1049,
       "openBacklog": {
         "n": 1049,
@@ -1114,15 +1114,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 77,
-        "S3": 701,
+        "S3": 703,
         "S4": 108,
-        "unknown": 163
+        "unknown": 161
       },
       "source": "backfill"
     },
     {
       "week": "2025-W47",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1049,
       "openBacklog": {
         "n": 1049,
@@ -1134,15 +1134,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 78,
-        "S3": 701,
+        "S3": 703,
         "S4": 108,
-        "unknown": 162
+        "unknown": 160
       },
       "source": "backfill"
     },
     {
       "week": "2025-W48",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1068,
       "openBacklog": {
         "n": 1068,
@@ -1154,15 +1154,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 82,
-        "S3": 710,
+        "S3": 712,
         "S4": 108,
-        "unknown": 168
+        "unknown": 166
       },
       "source": "backfill"
     },
     {
       "week": "2025-W49",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1076,
       "openBacklog": {
         "n": 1076,
@@ -1174,15 +1174,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 82,
-        "S3": 711,
+        "S3": 713,
         "S4": 107,
-        "unknown": 176
+        "unknown": 174
       },
       "source": "backfill"
     },
     {
       "week": "2025-W50",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1074,
       "openBacklog": {
         "n": 1074,
@@ -1194,15 +1194,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 82,
-        "S3": 709,
+        "S3": 711,
         "S4": 107,
-        "unknown": 176
+        "unknown": 174
       },
       "source": "backfill"
     },
     {
       "week": "2025-W51",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1087,
       "openBacklog": {
         "n": 1087,
@@ -1214,15 +1214,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 81,
-        "S3": 711,
+        "S3": 713,
         "S4": 108,
-        "unknown": 187
+        "unknown": 185
       },
       "source": "backfill"
     },
     {
       "week": "2025-W52",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1088,
       "openBacklog": {
         "n": 1088,
@@ -1234,15 +1234,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 81,
-        "S3": 712,
+        "S3": 714,
         "S4": 108,
-        "unknown": 187
+        "unknown": 185
       },
       "source": "backfill"
     },
     {
       "week": "2026-W01",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1221,
       "openBacklog": {
         "n": 1221,
@@ -1254,15 +1254,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 97,
-        "S3": 767,
+        "S3": 769,
         "S4": 132,
-        "unknown": 225
+        "unknown": 223
       },
       "source": "backfill"
     },
     {
       "week": "2026-W02",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1218,
       "openBacklog": {
         "n": 1218,
@@ -1274,15 +1274,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 97,
-        "S3": 766,
+        "S3": 768,
         "S4": 131,
-        "unknown": 224
+        "unknown": 222
       },
       "source": "backfill"
     },
     {
       "week": "2026-W03",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1213,
       "openBacklog": {
         "n": 1213,
@@ -1294,15 +1294,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 97,
-        "S3": 761,
+        "S3": 763,
         "S4": 132,
-        "unknown": 223
+        "unknown": 221
       },
       "source": "backfill"
     },
     {
       "week": "2026-W04",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1225,
       "openBacklog": {
         "n": 1225,
@@ -1314,15 +1314,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 100,
-        "S3": 767,
+        "S3": 769,
         "S4": 133,
-        "unknown": 225
+        "unknown": 223
       },
       "source": "backfill"
     },
     {
       "week": "2026-W05",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1187,
       "openBacklog": {
         "n": 1187,
@@ -1334,15 +1334,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 94,
-        "S3": 757,
+        "S3": 759,
         "S4": 131,
-        "unknown": 205
+        "unknown": 203
       },
       "source": "backfill"
     },
     {
       "week": "2026-W06",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1184,
       "openBacklog": {
         "n": 1184,
@@ -1354,15 +1354,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 96,
-        "S3": 756,
+        "S3": 758,
         "S4": 131,
-        "unknown": 201
+        "unknown": 199
       },
       "source": "backfill"
     },
     {
       "week": "2026-W07",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1215,
       "openBacklog": {
         "n": 1215,
@@ -1374,15 +1374,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 108,
-        "S3": 770,
+        "S3": 772,
         "S4": 134,
-        "unknown": 203
+        "unknown": 201
       },
       "source": "backfill"
     },
     {
       "week": "2026-W08",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1237,
       "openBacklog": {
         "n": 1237,
@@ -1394,15 +1394,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 108,
-        "S3": 786,
+        "S3": 788,
         "S4": 134,
-        "unknown": 209
+        "unknown": 207
       },
       "source": "backfill"
     },
     {
       "week": "2026-W09",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1232,
       "openBacklog": {
         "n": 1232,
@@ -1414,15 +1414,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 105,
-        "S3": 781,
+        "S3": 783,
         "S4": 132,
-        "unknown": 214
+        "unknown": 212
       },
       "source": "backfill"
     },
     {
       "week": "2026-W10",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1227,
       "openBacklog": {
         "n": 1227,
@@ -1434,15 +1434,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 104,
-        "S3": 780,
+        "S3": 782,
         "S4": 132,
-        "unknown": 211
+        "unknown": 209
       },
       "source": "backfill"
     },
     {
       "week": "2026-W11",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1242,
       "openBacklog": {
         "n": 1242,
@@ -1454,15 +1454,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 103,
-        "S3": 781,
+        "S3": 783,
         "S4": 135,
-        "unknown": 223
+        "unknown": 221
       },
       "source": "backfill"
     },
     {
       "week": "2026-W12",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1244,
       "openBacklog": {
         "n": 1244,
@@ -1474,15 +1474,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 102,
-        "S3": 786,
+        "S3": 788,
         "S4": 135,
-        "unknown": 221
+        "unknown": 219
       },
       "source": "backfill"
     },
     {
       "week": "2026-W13",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1237,
       "openBacklog": {
         "n": 1237,
@@ -1494,15 +1494,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 101,
-        "S3": 783,
+        "S3": 785,
         "S4": 133,
-        "unknown": 220
+        "unknown": 218
       },
       "source": "backfill"
     },
     {
       "week": "2026-W14",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1252,
       "openBacklog": {
         "n": 1252,
@@ -1514,15 +1514,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 101,
-        "S3": 787,
+        "S3": 789,
         "S4": 134,
-        "unknown": 230
+        "unknown": 228
       },
       "source": "backfill"
     },
     {
       "week": "2026-W15",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1252,
       "openBacklog": {
         "n": 1252,
@@ -1534,15 +1534,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 100,
-        "S3": 787,
+        "S3": 789,
         "S4": 135,
-        "unknown": 230
+        "unknown": 228
       },
       "source": "backfill"
     },
     {
       "week": "2026-W16",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1277,
       "openBacklog": {
         "n": 1277,
@@ -1554,15 +1554,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 108,
-        "S3": 784,
+        "S3": 786,
         "S4": 134,
-        "unknown": 251
+        "unknown": 249
       },
       "source": "backfill"
     },
     {
       "week": "2026-W17",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1281,
       "openBacklog": {
         "n": 1281,
@@ -1574,15 +1574,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 109,
-        "S3": 783,
+        "S3": 785,
         "S4": 133,
-        "unknown": 256
+        "unknown": 254
       },
       "source": "backfill"
     },
     {
       "week": "2026-W18",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1275,
       "openBacklog": {
         "n": 1275,
@@ -1594,15 +1594,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 106,
-        "S3": 783,
+        "S3": 785,
         "S4": 133,
-        "unknown": 253
+        "unknown": 251
       },
       "source": "backfill"
     },
     {
       "week": "2026-W19",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1285,
       "openBacklog": {
         "n": 1285,
@@ -1614,15 +1614,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 106,
-        "S3": 785,
+        "S3": 787,
         "S4": 135,
-        "unknown": 259
+        "unknown": 257
       },
       "source": "backfill"
     },
     {
       "week": "2026-W20",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1286,
       "openBacklog": {
         "n": 1286,
@@ -1634,15 +1634,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 103,
-        "S3": 789,
+        "S3": 791,
         "S4": 135,
-        "unknown": 259
+        "unknown": 257
       },
       "source": "backfill"
     },
     {
       "week": "2026-W21",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1296,
       "openBacklog": {
         "n": 1296,
@@ -1654,15 +1654,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 107,
-        "S3": 787,
+        "S3": 789,
         "S4": 138,
-        "unknown": 264
+        "unknown": 262
       },
       "source": "backfill"
     },
     {
       "week": "2026-W22",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1304,
       "openBacklog": {
         "n": 1304,
@@ -1674,15 +1674,15 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 106,
-        "S3": 791,
+        "S3": 793,
         "S4": 138,
-        "unknown": 269
+        "unknown": 267
       },
       "source": "backfill"
     },
     {
       "week": "2026-W23",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
+      "capturedAt": "2026-10-17T10:14:51.182Z",
       "openCount": 1303,
       "openBacklog": {
         "n": 1303,
@@ -1694,9 +1694,9 @@
       "openBySeverity": {
         "S1": 0,
         "S2": 105,
-        "S3": 796,
+        "S3": 798,
         "S4": 137,
-        "unknown": 265
+        "unknown": 263
       },
       "source": "backfill"
     },
@@ -2062,19 +2062,19 @@
     },
     {
       "week": "2026-W42",
-      "capturedAt": "2026-10-16T10:50:28.812Z",
-      "openCount": 1417,
+      "capturedAt": "2026-10-17T10:14:51.182Z",
+      "openCount": 1420,
       "openBacklog": {
-        "n": 1417,
-        "min": 0.796085787037037,
-        "max": 9766.524372824075,
-        "mean": 1796.0358700453157,
-        "median": 797.8886668055555
+        "n": 1420,
+        "min": 0.6477220138888888,
+        "max": 9767.499631736111,
+        "mean": 1793.2162905780501,
+        "median": 798.5836479398148
       },
       "openBySeverity": {
         "S1": 0,
-        "S2": 106,
-        "S3": 874,
+        "S2": 107,
+        "S3": 876,
         "S4": 146,
         "unknown": 291
       },
