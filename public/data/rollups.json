@@ -11707,7 +11707,7 @@
           "fixed": 1
         },
         "S3": {
-          "filed": 10,
+          "filed": 18,
           "fixed": 6
         },
         "S4": {
@@ -11715,7 +11715,7 @@
           "fixed": 0
         },
         "unknown": {
-          "filed": 25,
+          "filed": 17,
           "fixed": 5
         }
       },
@@ -11744,7 +11744,7 @@
           "fixed": 1
         },
         "S3": {
-          "filed": 14,
+          "filed": 17,
           "fixed": 3
         },
         "S4": {
@@ -11752,7 +11752,7 @@
           "fixed": 0
         },
         "unknown": {
-          "filed": 13,
+          "filed": 10,
           "fixed": 2
         }
       },
@@ -11855,7 +11855,7 @@
           "fixed": 12
         },
         "S3": {
-          "filed": 9,
+          "filed": 12,
           "fixed": 8
         },
         "S4": {
@@ -11863,7 +11863,7 @@
           "fixed": 0
         },
         "unknown": {
-          "filed": 16,
+          "filed": 13,
           "fixed": 3
         }
       },
@@ -12323,8 +12323,8 @@
     },
     {
       "period": "2026-10",
-      "filed": 20,
-      "fixed": 13,
+      "filed": 29,
+      "fixed": 15,
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
@@ -12336,23 +12336,23 @@
           "fixed": 2
         },
         "S3": {
-          "filed": 8,
-          "fixed": 6
+          "filed": 12,
+          "fixed": 8
         },
         "S4": {
           "filed": 1,
           "fixed": 2
         },
         "unknown": {
-          "filed": 10,
+          "filed": 15,
           "fixed": 3
         }
       },
       "buckets": {
-        "fixed": 13,
+        "fixed": 15,
         "wontfix": 1,
         "incomplete": 0,
-        "duplicate": 2,
+        "duplicate": 3,
         "invalid": 3,
         "other_closed": 0,
         "open": 0
@@ -13411,7 +13411,7 @@
           "fixed": 55
         },
         "S3": {
-          "filed": 291,
+          "filed": 305,
           "fixed": 96
         },
         "S4": {
@@ -13419,7 +13419,7 @@
           "fixed": 5
         },
         "unknown": {
-          "filed": 216,
+          "filed": 202,
           "fixed": 47
         }
       },
@@ -13435,8 +13435,8 @@
     },
     {
       "period": "2026",
-      "filed": 707,
-      "fixed": 368,
+      "filed": 716,
+      "fixed": 370,
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
@@ -13448,23 +13448,23 @@
           "fixed": 77
         },
         "S3": {
-          "filed": 280,
-          "fixed": 142
+          "filed": 284,
+          "fixed": 144
         },
         "S4": {
           "filed": 46,
           "fixed": 26
         },
         "unknown": {
-          "filed": 273,
+          "filed": 278,
           "fixed": 123
         }
       },
       "buckets": {
-        "fixed": 368,
+        "fixed": 370,
         "wontfix": 24,
         "incomplete": 1,
-        "duplicate": 70,
+        "duplicate": 71,
         "invalid": 88,
         "other_closed": 3,
         "open": 0
@@ -24430,7 +24430,7 @@
         },
         {
           "period": "2026-07",
-          "filed": 37,
+          "filed": 38,
           "fixed": 26,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24451,7 +24451,7 @@
               "fixed": 3
             },
             "unknown": {
-              "filed": 14,
+              "filed": 15,
               "fixed": 11
             }
           },
@@ -24541,7 +24541,7 @@
         },
         {
           "period": "2026-10",
-          "filed": 49,
+          "filed": 50,
           "fixed": 33,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24562,7 +24562,7 @@
               "fixed": 5
             },
             "unknown": {
-              "filed": 18,
+              "filed": 19,
               "fixed": 13
             }
           },
@@ -25542,7 +25542,7 @@
         },
         {
           "period": "2026",
-          "filed": 435,
+          "filed": 437,
           "fixed": 289,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25563,7 +25563,7 @@
               "fixed": 30
             },
             "unknown": {
-              "filed": 149,
+              "filed": 151,
               "fixed": 109
             }
           },
@@ -25578,7 +25578,7 @@
           }
         }
       ],
-      "total": 10313
+      "total": 10315
     },
     {
       "key": "firefox-disability-access",
