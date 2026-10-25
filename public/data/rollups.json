@@ -12324,7 +12324,7 @@
     {
       "period": "2026-10",
       "filed": 29,
-      "fixed": 15,
+      "fixed": 16,
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
@@ -12337,7 +12337,7 @@
         },
         "S3": {
           "filed": 12,
-          "fixed": 8
+          "fixed": 9
         },
         "S4": {
           "filed": 1,
@@ -12349,7 +12349,7 @@
         }
       },
       "buckets": {
-        "fixed": 15,
+        "fixed": 16,
         "wontfix": 1,
         "incomplete": 0,
         "duplicate": 3,
@@ -13436,7 +13436,7 @@
     {
       "period": "2026",
       "filed": 716,
-      "fixed": 370,
+      "fixed": 371,
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
@@ -13449,7 +13449,7 @@
         },
         "S3": {
           "filed": 284,
-          "fixed": 144
+          "fixed": 145
         },
         "S4": {
           "filed": 46,
@@ -13461,7 +13461,7 @@
         }
       },
       "buckets": {
-        "fixed": 370,
+        "fixed": 371,
         "wontfix": 24,
         "incomplete": 1,
         "duplicate": 71,
@@ -24541,7 +24541,7 @@
         },
         {
           "period": "2026-10",
-          "filed": 52,
+          "filed": 53,
           "fixed": 33,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24558,7 +24558,7 @@
               "fixed": 10
             },
             "S4": {
-              "filed": 11,
+              "filed": 12,
               "fixed": 5
             },
             "unknown": {
@@ -25542,7 +25542,7 @@
         },
         {
           "period": "2026",
-          "filed": 439,
+          "filed": 440,
           "fixed": 289,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25559,7 +25559,7 @@
               "fixed": 88
             },
             "S4": {
-              "filed": 69,
+              "filed": 70,
               "fixed": 30
             },
             "unknown": {
@@ -25578,7 +25578,7 @@
           }
         }
       ],
-      "total": 10317
+      "total": 10318
     },
     {
       "key": "firefox-disability-access",
