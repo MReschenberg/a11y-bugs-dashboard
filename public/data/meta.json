@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-02T14:55:15.204Z",
-  "lastSuccessfulIngest": "2026-11-02T14:55:15.204Z",
-  "totalBugs": 5241,
-  "totalFetched": 9776,
-  "excludedCount": 2198,
+  "generatedAt": "2026-11-03T13:43:26.436Z",
+  "lastSuccessfulIngest": "2026-11-03T13:43:26.436Z",
+  "totalBugs": 5246,
+  "totalFetched": 9782,
+  "excludedCount": 2199,
   "excludedDetail": {
     "SeaMonkey": 498,
     "graveyard": 885,
     "MailNews Core": 48,
-    "Thunderbird": 651,
+    "Thunderbird": 652,
     "Calendar": 116
   },
   "componentCounts": {
-    "Core::Disability Access APIs": 10332,
+    "Core::Disability Access APIs": 10337,
     "Firefox::Disability Access": 1170
   },
   "restrictedCount": 14,
@@ -22,9 +22,9 @@
     "normal": 1629,
     "major": 260,
     "S3": 1627,
-    "--": 720,
+    "--": 724,
     "minor": 102,
-    "S4": 306,
+    "S4": 307,
     "critical": 59,
     "trivial": 20,
     "N/A": 73,
