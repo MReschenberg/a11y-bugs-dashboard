@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T14:06:24.725Z",
-  "lastSuccessfulIngest": "2026-11-05T14:06:24.725Z",
+  "generatedAt": "2026-11-06T13:49:55.054Z",
+  "lastSuccessfulIngest": "2026-11-06T13:49:55.054Z",
   "totalBugs": 5255,
   "totalFetched": 9791,
   "excludedCount": 2199,
@@ -12,7 +12,7 @@
     "Calendar": 116
   },
   "componentCounts": {
-    "Core::Disability Access APIs": 10342,
+    "Core::Disability Access APIs": 10343,
     "Firefox::Disability Access": 1170
   },
   "restrictedCount": 14,
@@ -21,14 +21,14 @@
     "blocker": 17,
     "normal": 1629,
     "major": 260,
-    "S3": 1632,
-    "--": 726,
+    "S3": 1630,
+    "--": 724,
     "minor": 102,
-    "S4": 308,
+    "S4": 309,
     "critical": 59,
     "trivial": 20,
     "N/A": 73,
-    "S2": 432
+    "S2": 435
   },
   "caveats": [
     "Bugs missing the `access` keyword are not counted.",
