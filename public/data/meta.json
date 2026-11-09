@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T12:51:33.275Z",
-  "lastSuccessfulIngest": "2026-11-08T12:51:33.275Z",
-  "totalBugs": 5268,
-  "totalFetched": 9804,
-  "excludedCount": 2199,
+  "generatedAt": "2026-11-09T15:23:49.207Z",
+  "lastSuccessfulIngest": "2026-11-09T15:23:49.207Z",
+  "totalBugs": 5271,
+  "totalFetched": 9808,
+  "excludedCount": 2200,
   "excludedDetail": {
     "SeaMonkey": 498,
     "graveyard": 885,
     "MailNews Core": 48,
-    "Thunderbird": 652,
+    "Thunderbird": 653,
     "Calendar": 116
   },
   "componentCounts": {
@@ -21,14 +21,14 @@
     "blocker": 17,
     "normal": 1629,
     "major": 260,
-    "S3": 1637,
+    "S3": 1640,
     "--": 727,
     "minor": 102,
     "S4": 313,
     "critical": 59,
     "trivial": 20,
-    "N/A": 72,
-    "S2": 435
+    "N/A": 71,
+    "S2": 436
   },
   "caveats": [
     "Bugs missing the `access` keyword are not counted.",

@@ -12175,7 +12175,7 @@
     },
     {
       "period": "2026-06",
-      "filed": 89,
+      "filed": 90,
       "fixed": 46,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12184,7 +12184,7 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 7,
+          "filed": 8,
           "fixed": 8
         },
         "S3": {
@@ -12336,7 +12336,7 @@
           "fixed": 3
         },
         "S3": {
-          "filed": 14,
+          "filed": 15,
           "fixed": 15
         },
         "S4": {
@@ -12344,7 +12344,7 @@
           "fixed": 2
         },
         "unknown": {
-          "filed": 12,
+          "filed": 11,
           "fixed": 5
         }
       },
@@ -12360,7 +12360,7 @@
     },
     {
       "period": "2026-11",
-      "filed": 24,
+      "filed": 26,
       "fixed": 2,
       "webaimFiled": 0,
       "bySeverity": {
@@ -12373,7 +12373,7 @@
           "fixed": 0
         },
         "S3": {
-          "filed": 7,
+          "filed": 9,
           "fixed": 1
         },
         "S4": {
@@ -13472,7 +13472,7 @@
     },
     {
       "period": "2026",
-      "filed": 745,
+      "filed": 748,
       "fixed": 382,
       "webaimFiled": 26,
       "bySeverity": {
@@ -13481,11 +13481,11 @@
           "fixed": 0
         },
         "S2": {
-          "filed": 112,
+          "filed": 113,
           "fixed": 78
         },
         "S3": {
-          "filed": 293,
+          "filed": 296,
           "fixed": 152
         },
         "S4": {
@@ -13493,7 +13493,7 @@
           "fixed": 26
         },
         "unknown": {
-          "filed": 288,
+          "filed": 287,
           "fixed": 126
         }
       },
@@ -24643,7 +24643,7 @@
           "buckets": {
             "fixed": 8,
             "wontfix": 1,
-            "incomplete": 1,
+            "incomplete": 3,
             "duplicate": 1,
             "invalid": 0,
             "other_closed": 0,
@@ -25644,7 +25644,7 @@
           "buckets": {
             "fixed": 310,
             "wontfix": 18,
-            "incomplete": 42,
+            "incomplete": 44,
             "duplicate": 37,
             "invalid": 35,
             "other_closed": 0,
