@@ -12361,7 +12361,7 @@
     {
       "period": "2026-11",
       "filed": 27,
-      "fixed": 5,
+      "fixed": 7,
       "webaimFiled": 0,
       "bySeverity": {
         "S1": {
@@ -12370,11 +12370,11 @@
         },
         "S2": {
           "filed": 0,
-          "fixed": 0
+          "fixed": 1
         },
         "S3": {
           "filed": 11,
-          "fixed": 3
+          "fixed": 4
         },
         "S4": {
           "filed": 3,
@@ -12386,7 +12386,7 @@
         }
       },
       "buckets": {
-        "fixed": 5,
+        "fixed": 7,
         "wontfix": 2,
         "incomplete": 0,
         "duplicate": 0,
@@ -13473,7 +13473,7 @@
     {
       "period": "2026",
       "filed": 749,
-      "fixed": 385,
+      "fixed": 387,
       "webaimFiled": 26,
       "bySeverity": {
         "S1": {
@@ -13482,11 +13482,11 @@
         },
         "S2": {
           "filed": 114,
-          "fixed": 78
+          "fixed": 79
         },
         "S3": {
           "filed": 298,
-          "fixed": 154
+          "fixed": 155
         },
         "S4": {
           "filed": 51,
@@ -13498,7 +13498,7 @@
         }
       },
       "buckets": {
-        "fixed": 385,
+        "fixed": 387,
         "wontfix": 28,
         "incomplete": 1,
         "duplicate": 71,
@@ -24615,7 +24615,7 @@
         },
         {
           "period": "2026-11",
-          "filed": 20,
+          "filed": 21,
           "fixed": 17,
           "webaimFiled": 0,
           "bySeverity": {
@@ -24636,7 +24636,7 @@
               "fixed": 3
             },
             "unknown": {
-              "filed": 6,
+              "filed": 7,
               "fixed": 6
             }
           },
@@ -25616,7 +25616,7 @@
         },
         {
           "period": "2026",
-          "filed": 477,
+          "filed": 478,
           "fixed": 322,
           "webaimFiled": 0,
           "bySeverity": {
@@ -25637,7 +25637,7 @@
               "fixed": 36
             },
             "unknown": {
-              "filed": 163,
+              "filed": 164,
               "fixed": 120
             }
           },
@@ -25652,7 +25652,7 @@
           }
         }
       ],
-      "total": 10355
+      "total": 10356
     },
     {
       "key": "firefox-disability-access",
