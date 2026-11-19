@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-18T15:12:32.168Z",
-  "lastSuccessfulIngest": "2026-11-18T15:12:32.168Z",
-  "totalBugs": 5279,
-  "totalFetched": 9816,
+  "generatedAt": "2026-11-19T15:20:48.705Z",
+  "lastSuccessfulIngest": "2026-11-19T15:20:48.705Z",
+  "totalBugs": 5281,
+  "totalFetched": 9818,
   "excludedCount": 2200,
   "excludedDetail": {
     "SeaMonkey": 498,
@@ -12,7 +12,7 @@
     "Calendar": 116
   },
   "componentCounts": {
-    "Core::Disability Access APIs": 10362,
+    "Core::Disability Access APIs": 10363,
     "Firefox::Disability Access": 1170
   },
   "restrictedCount": 14,
@@ -21,7 +21,7 @@
     "blocker": 17,
     "normal": 1629,
     "major": 260,
-    "S3": 1644,
+    "S3": 1646,
     "--": 729,
     "minor": 102,
     "S4": 313,
